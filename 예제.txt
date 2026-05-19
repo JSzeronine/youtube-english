@@ -1,8 +1,489 @@
 
 의문사
+What → 무엇
+Why → 왜
+When → 언제
+Where → 어디
+Who → 누구
+Whom → 누구를
+Which → 어느 것
+Whose → 누구의
+How → 어떻게
+
 주어
+인칭대명사
+I → 나
+You → 너 / 당신
+He → 그
+She → 그녀
+It → 그것
+We → 우리
+They → 그들
+
+목적격도 같이 많이 씀:
+Me → 나를
+Him → 그를
+Her → 그녀를
+Us → 우리를
+Them → 그들을
+
 동사
+go → 가다
+come → 오다
+eat → 먹다
+drink → 마시다
+sleep → 자다
+wake → 깨다
+sit → 앉다
+stand → 서다
+walk → 걷다
+run → 뛰다
+look → 보다
+watch → 시청하다
+see → 보다
+hear → 듣다
+listen → 듣다
+speak → 말하다
+talk → 대화하다
+say → 말하다
+tell → 말해주다
+ask → 물어보다
+call → 전화하다
+text → 문자하다
+read → 읽다
+write → 쓰다
+study → 공부하다
+learn → 배우다
+teach → 가르치다
+work → 일하다
+rest → 쉬다
+relax → 휴식하다
+play → 놀다
+help → 돕다
+use → 사용하다
+make → 만들다
+do → 하다
+try → 시도하다
+start → 시작하다
+stop → 멈추다
+finish → 끝내다
+keep → 유지하다
+open → 열다
+close → 닫다
+bring → 가져오다
+take → 가져가다
+give → 주다
+get → 얻다
+buy → 사다
+sell → 팔다
+pay → 지불하다
+choose → 선택하다
+like → 좋아하다
+love → 사랑하다
+want → 원하다
+need → 필요하다
+have → 가지다
+know → 알다
+think → 생각하다
+remember → 기억하다
+forget → 잊다
+understand → 이해하다
+meet → 만나다
+wait → 기다리다
+find → 찾다
+lose → 잃다
+send → 보내다
+show → 보여주다
+move → 움직이다
+live → 살다
+stay → 머무르다
+leave → 떠나다
+clean → 청소하다
+wash → 씻다
+cook → 요리하다
+cut → 자르다
+wear → 입다
+change → 바꾸다
+drive → 운전하다
+ride → 타다
+travel → 여행하다
+visit → 방문하다
+enjoy → 즐기다
+laugh → 웃다
+smile → 미소짓다
+cry → 울다
+worry → 걱정하다
+hope → 바라다
+plan → 계획하다
+win → 이기다
+join → 참여하다
+order → 주문하다
+share → 공유하다
+fix → 고치다
+build → 만들다
+draw → 그리다
+sing → 노래하다
+dance → 춤추다
+shop → 쇼핑하다
+exercise → 운동하다
+practice → 연습하다
+
+
 형용사
+big → 큰
+small → 작은
+tall → 키 큰
+short → 짧은 / 키 작은
+long → 긴
+fast → 빠른
+slow → 느린
+hot → 뜨거운
+cold → 차가운
+warm → 따뜻한
+cool → 시원한
+good → 좋은
+bad → 나쁜
+nice → 좋은 / 친절한
+kind → 친절한
+mean → 못된
+happy → 행복한
+sad → 슬픈
+angry → 화난
+tired → 피곤한
+busy → 바쁜
+free → 한가한
+easy → 쉬운
+hard → 어려운
+difficult → 어려운
+simple → 단순한
+important → 중요한
+special → 특별한
+famous → 유명한
+popular → 인기 있는
+beautiful → 아름다운
+pretty → 예쁜
+handsome → 잘생긴
+cute → 귀여운
+ugly → 못생긴
+clean → 깨끗한
+dirty → 더러운
+rich → 부자인
+poor → 가난한
+expensive → 비싼
+cheap → 싼
+delicious → 맛있는
+sweet → 달콤한
+salty → 짠
+spicy → 매운
+fresh → 신선한
+healthy → 건강한
+sick → 아픈
+strong → 강한
+weak → 약한
+smart → 똑똑한
+stupid → 멍청한
+funny → 웃긴
+serious → 진지한
+quiet → 조용한
+loud → 시끄러운
+bright → 밝은
+dark → 어두운
+soft → 부드러운
+hard → 딱딱한
+heavy → 무거운
+light → 가벼운
+young → 젊은
+old → 늙은 / 오래된
+new → 새로운
+early → 이른
+late → 늦은
+safe → 안전한
+dangerous → 위험한
+friendly → 친근한
+honest → 솔직한
+brave → 용감한
+careful → 조심스러운
+lazy → 게으른
+active → 활동적인
+excited → 신난
+bored → 지루한
+nervous → 긴장한
+comfortable → 편안한
+uncomfortable → 불편한
+possible → 가능한
+impossible → 불가능한
+correct → 맞는
+wrong → 틀린
+perfect → 완벽한
+strange → 이상한
+different → 다른
+same → 같은
+noisy → 시끄러운
+crowded → 붐비는
+empty → 비어 있는
+full → 가득 찬
+open → 열린
+closed → 닫힌
+hungry → 배고픈
+thirsty → 목마른
+sleepy → 졸린
+ready → 준비된
+surprised → 놀란
+worried → 걱정하는
+relaxed → 편안한
+lucky → 운 좋은
+unlucky → 운 없는
+
+
 명사
+people → 사람들
+person → 사람
+man → 남자
+woman → 여자
+boy → 소년
+girl → 소녀
+baby → 아기
+child → 아이
+friend → 친구
+family → 가족
+mom → 엄마
+dad → 아빠
+brother → 형제
+sister → 자매
+teacher → 선생님
+student → 학생
+doctor → 의사
+nurse → 간호사
+worker → 직원
+boss → 상사
+customer → 손님
+police → 경찰
+driver → 운전자
+singer → 가수
+actor → 배우
+actress → 여배우
+player → 선수
+chef → 요리사
+house → 집
+room → 방
+apartment → 아파트
+kitchen → 부엌
+bathroom → 화장실
+bed → 침대
+chair → 의자
+table → 테이블
+sofa → 소파
+door → 문
+window → 창문
+wall → 벽
+floor → 바닥
+school → 학교
+company → 회사
+office → 사무실
+store → 가게
+restaurant → 식당
+cafe → 카페
+hospital → 병원
+bank → 은행
+library → 도서관
+park → 공원
+station → 역
+airport → 공항
+hotel → 호텔
+phone → 핸드폰
+computer → 컴퓨터
+laptop → 노트북
+camera → 카메라
+TV → TV
+internet → 인터넷
+app → 앱
+game → 게임
+email → 이메일
+message → 메시지
+car → 자동차
+bus → 버스
+train → 기차
+subway → 지하철
+bike → 자전거
+airplane → 비행기
+taxi → 택시
+food → 음식
+rice → 밥
+bread → 빵
+pizza → 피자
+chicken → 치킨
+coffee → 커피
+water → 물
+milk → 우유
+beer → 맥주
+fruit → 과일
+apple → 사과
+banana → 바나나
+movie → 영화
+music → 음악
+song → 노래
+book → 책
+picture → 사진
+video → 영상
+story → 이야기
+time → 시간
+day → 날
+week → 주
+month → 달
+year → 년
+morning → 아침
+afternoon → 오후
+evening → 저녁
+night → 밤
+love → 사랑
+happiness → 행복
+problem → 문제
+idea → 아이디어
+question → 질문
+answer → 답변
+chance → 기회
+dream → 꿈
+plan → 계획
+goal → 목표
+experience → 경험
+memory → 기억
+
 장소
+home → 집
+house → 집
+room → 방
+kitchen → 부엌
+bathroom → 화장실
+bedroom → 침실
+living room → 거실
+apartment → 아파트
+school → 학교
+classroom → 교실
+library → 도서관
+office → 사무실
+company → 회사
+meeting room → 회의실
+restaurant → 식당
+cafe → 카페
+bakery → 빵집
+store → 가게
+supermarket → 마트
+convenience store → 편의점
+shopping mall → 쇼핑몰
+market → 시장
+hospital → 병원
+pharmacy → 약국
+bank → 은행
+police station → 경찰서
+post office → 우체국
+park → 공원
+beach → 해변
+mountain → 산
+river → 강
+lake → 호수
+forest → 숲
+street → 거리
+road → 길
+bridge → 다리
+station → 역
+subway station → 지하철역
+bus stop → 버스 정류장
+airport → 공항
+parking lot → 주차장
+hotel → 호텔
+gym → 헬스장
+theater → 극장
+movie theater → 영화관
+museum → 박물관
+concert hall → 공연장
+classroom → 교실
+playground → 운동장
+gymnasium → 체육관
+Seoul → 서울
+Korea → 한국
+Japan → 일본
+China → 중국
+America → 미국
+
+장소 표현으로 진짜 많이 쓰는 전치사까지 같이 외우면 좋아요:
+
+at home → 집에서
+at school → 학교에서
+in Seoul → 서울에서
+in the room → 방 안에서
+on the street → 거리에서
+near the station → 역 근처에서
+behind the building → 건물 뒤에서
+in front of the cafe → 카페 앞에서
+
+
+
 시간
+now → 지금
+today → 오늘
+tonight → 오늘 밤
+tomorrow → 내일
+yesterday → 어제
+this morning → 오늘 아침
+this afternoon → 오늘 오후
+this evening → 오늘 저녁
+last night → 어젯밤
+next week → 다음 주
+last week → 지난주
+this week → 이번 주
+next month → 다음 달
+last month → 지난달
+this month → 이번 달
+next year → 내년
+last year → 작년
+this year → 올해
+morning → 아침
+afternoon → 오후
+evening → 저녁
+night → 밤
+Monday → 월요일
+Tuesday → 화요일
+Wednesday → 수요일
+Thursday → 목요일
+Friday → 금요일
+Saturday → 토요일
+Sunday → 일요일
+January → 1월
+February → 2월
+March → 3월
+April → 4월
+May → 5월
+June → 6월
+July → 7월
+August → 8월
+September → 9월
+October → 10월
+November → 11월
+December → 12월
+early → 일찍
+late → 늦게
+soon → 곧
+later → 나중에
+already → 이미
+still → 아직도
+yet → 아직
+again → 다시
+always → 항상
+usually → 보통
+often → 자주
+sometimes → 가끔
+rarely → 거의 안
+never → 절대 안
+for a minute → 1분 동안
+for an hour → 1시간 동안
+for a while → 잠시 동안
+all day → 하루 종일
+all night → 밤새
+at 7 → 7시에
+at noon → 정오에
+at midnight → 자정에
+before dinner → 저녁 먹기 전에
+after work → 퇴근 후에
+during class → 수업 중에
+on Monday → 월요일에
+in the morning → 아침에
