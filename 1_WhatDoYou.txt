@@ -1,0 +1,81 @@
+What do you do? → 너 뭐 해? / 직업이 뭐야?
+
+What do you do now? → 지금 뭐 하고 있어?
+
+What do you do for fun? → 재미로 뭐 해?
+
+What do you do after work? → 퇴근 후에 뭐 해?
+
+What do you think? → 어떻게 생각해?
+
+What do you think about this? → 이거 어떻게 생각해?
+
+What do you think of him? → 걔 어떻게 생각해?
+
+What do you mean? → 무슨 뜻이야?
+
+What do you mean by that? → 그거 무슨 뜻이야?
+
+What do you want? → 뭐 원해?
+
+What do you want to do? → 뭐 하고 싶어?
+
+What do you want to eat? → 뭐 먹고 싶어?
+
+What do you want to drink? → 뭐 마시고 싶어?
+
+What do you want to buy? → 뭐 사고 싶어?
+
+What do you want to watch? → 뭐 보고 싶어?
+
+What do you want to say? → 뭐 말하고 싶어?
+
+What do you want from me? → 나한테 뭐 원하는 거야?
+
+What do you want now? → 지금 뭐 원해?
+
+What do you want here? → 여기서 뭐 원하는 거야?
+
+What do you need? → 뭐 필요해?
+
+What do you need help with? → 뭐 도움이 필요해?
+
+What do you need now? → 지금 뭐 필요해?
+
+What do you like? → 뭐 좋아해?
+
+What do you like to do? → 뭐 하는 거 좋아해?
+
+What do you like about it? → 그거 뭐가 좋아?
+
+What do you see? → 뭐 보여?
+
+What do you hear? → 뭐 들려?
+
+What do you feel? → 기분 어때? / 뭐 느껴?
+
+What do you know? → 뭐 알아?
+
+What do you say? → 뭐라고 말해? / 뭐라고 할래?
+
+What do you say to that? → 그거에 뭐라고 말해?
+
+What do you suggest? → 뭐 추천해?
+
+What do you expect? → 뭘 기대해?
+
+What do you plan? → 뭐 계획해?
+
+What do you plan to do? → 뭐 할 계획이야?
+
+What do you choose? → 뭐 선택해?
+
+What do you pick? → 뭐 골라?
+
+What do you decide? → 뭐 결정해?
+
+What do you use this for? → 이거 뭐에 써?
+
+What do you do with this? → 이거 어떻게 해?
+
+What do you do about this? → 이거 어떻게 해결해?
