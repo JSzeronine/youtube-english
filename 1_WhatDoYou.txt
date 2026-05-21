@@ -1,7 +1,4 @@
 What do you do? → 너 뭐 해? / 직업이 뭐야?
-
-What do you do now? → 지금 뭐 하고 있어?
-
 What do you do for fun? → 재미로 뭐 해?
 
 What do you do after work? → 퇴근 후에 뭐 해?
