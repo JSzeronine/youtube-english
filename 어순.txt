@@ -1,0 +1,13 @@
+2) 성분 분석
+부분	역할	설명
+What kind of exercise	의문사구 (목적어 역할)	“어떤 종류의 운동”
+do	조동사	의문문 만들기
+you	주어	너
+do	본동사	하다 (exercise를 하다)
+after work	부사구	퇴근 후에
+3) 구조로 다시 쓰면
+
+👉 [What kind of exercise] + [do] + [you] + [do] + [after work]
+
+What kind of exercise do you do after work.
+너는 퇴근 후에 어떤 종류의 운동을 하니?
