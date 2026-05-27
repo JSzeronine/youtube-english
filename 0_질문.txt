@@ -3,3 +3,9 @@
 What do you do now ~? 패턴으로 20개 만들어죠.
 원어민이 자주 쓰는 문장으로 최대한 만들어주고,
 한국어로 번역했을때 어색함이 없어야 해.
+
+
+    {
+        en: { me: "Which apple do you want?", you: "The red one." },
+        ko: { me: "어떤 사과를 원하세요?", you: "빨간 거요." }
+    },
