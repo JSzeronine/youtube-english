@@ -11,3 +11,26 @@ after work	부사구	퇴근 후에
 
 What kind of exercise do you do after work.
 너는 퇴근 후에 어떤 종류의 운동을 하니?
+
+
+
+How many messages do you send a day?
+I send about 30 messages a day.
+How many hours do you work a day?
+I work around 8 hours a day.
+How many times do you exercise a week?
+I exercise 3 times a week.
+How many people do you talk to every day?
+I talk to about 10 people every day.
+How many videos do you watch a day?
+I watch about 5 videos a day.
+How many meals do you eat a day?
+I eat 3 meals a day.
+How many cups of water do you drink a day?
+I drink about 6 cups of water a day.
+How many books do you finish a month?
+I finish about 2 books a month.
+How many new people do you meet a month?
+I meet about 3 new people a month.
+How many tabs do you open when you study?
+I open around 10 tabs when I study.
