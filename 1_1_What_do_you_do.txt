@@ -1,0 +1,45 @@
+[
+    "What do you do after dinner?",           // 저녁 식사 후에 무엇을 하세요?
+    "What do you do before work?",            // 출근 전에 무엇을 하세요?
+    "What do you do after school?",           // 학교가 끝난 후에 무엇을 하세요?
+    "What do you do on Friday nights?",       // 금요일 밤에 무엇을 하세요?
+    "What do you do on Sunday mornings?",     // 일요일 아침에 무엇을 하세요?
+    "What do you do when you're bored?",      // 심심할 때 무엇을 하세요?
+    "What do you do when you're happy?",      // 기분이 좋을 때 무엇을 하세요?
+    "What do you do when you're sad?",        // 슬플 때 무엇을 하세요?
+    "What do you do when you're sick?",       // 아플 때 무엇을 하세요?
+    "What do you do when you're angry?",      // 화가 날 때 무엇을 하세요?
+
+    "What do you do when you can't sleep?",   // 잠이 오지 않을 때 무엇을 하세요?
+    "What do you do when you're hungry?",     // 배고플 때 무엇을 하세요?
+    "What do you do when you're busy?",       // 바쁠 때 무엇을 하세요?
+    "What do you do when you have free time?",// 자유 시간이 있을 때 무엇을 하세요?
+    "What do you do on your birthday?",       // 생일에 무엇을 하세요?
+    "What do you do on New Year's Day?",      // 새해에 무엇을 하세요?
+    "What do you do during vacations?",       // 휴가 동안 무엇을 하세요?
+    "What do you do during the summer?",      // 여름에 무엇을 하세요?
+    "What do you do during the winter?",      // 겨울에 무엇을 하세요?
+    "What do you do on rainy days?",          // 비 오는 날에 무엇을 하세요?
+
+    "What do you do on sunny days?",          // 맑은 날에 무엇을 하세요?
+    "What do you do at home?",                // 집에서 무엇을 하세요?
+    "What do you do at night?",               // 밤에 무엇을 하세요?
+    "What do you do in the afternoon?",       // 오후에 무엇을 하세요?
+    "What do you do after waking up?",        // 일어난 후에 무엇을 하세요?
+    "What do you do before breakfast?",       // 아침 식사 전에 무엇을 하세요?
+    "What do you do before a meeting?",       // 회의 전에 무엇을 하세요?
+    "What do you do after a meeting?",        // 회의 후에 무엇을 하세요?
+    "What do you do after exercising?",       // 운동 후에 무엇을 하세요?
+    "What do you do after taking a shower?",  // 샤워 후에 무엇을 하세요?
+
+    "What do you do with your friends?",      // 친구들과 무엇을 하세요?
+    "What do you do with your family?",       // 가족과 무엇을 하세요?
+    "What do you do with your children?",     // 아이들과 무엇을 하세요?
+    "What do you do at the gym?",             // 헬스장에서 무엇을 하세요?
+    "What do you do at the office?",          // 사무실에서 무엇을 하세요?
+    "What do you do at the beach?",           // 해변에서 무엇을 하세요?
+    "What do you do while traveling?",        // 여행 중에 무엇을 하세요?
+    "What do you do to stay healthy?",        // 건강을 위해 무엇을 하세요?
+    "What do you do to relax?",               // 휴식을 위해 무엇을 하세요?
+    "What do you do to save money?"           // 돈을 절약하기 위해 무엇을 하세요?
+]
