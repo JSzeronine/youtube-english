@@ -1,0 +1,22 @@
+const list = [
+  { text: "I gotta eat.", translation: "나 밥 먹어야 해." },
+  { text: "I gotta sleep.", translation: "나 자야 해." },
+  { text: "I gotta go home.", translation: "나 집에 가야 해." },
+  { text: "I gotta brush my teeth.", translation: "나 양치해야 해." },
+  { text: "I gotta wash my hands.", translation: "나 손 씻어야 해." },
+  { text: "I gotta clean up.", translation: "나 정리해야 해." },
+  { text: "I gotta feed my dog.", translation: "나 강아지 밥 줘야 해." },
+  { text: "I gotta do homework.", translation: "나 숙제해야 해." },
+  { text: "I gotta go potty.", translation: "나 화장실 가야 해." },
+  { text: "I gotta put on my shoes.", translation: "나 신발 신어야 해." },
+  { text: "I gotta get dressed.", translation: "나 옷 입어야 해." },
+  { text: "I gotta wake up.", translation: "나 일어나야 해." },
+  { text: "I gotta hurry.", translation: "나 서둘러야 해." },
+  { text: "I gotta help mom.", translation: "나 엄마 도와야 해." },
+  { text: "I gotta say sorry.", translation: "나 미안하다고 해야 해." },
+  { text: "I gotta be nice.", translation: "나 착해야 해." },
+  { text: "I gotta listen.", translation: "나 들어야 해." },
+  { text: "I gotta share.", translation: "나 나눠야 해." },
+  { text: "I gotta play nice.", translation: "나 착하게 놀아야 해." },
+  { text: "I gotta go to school.", translation: "나 학교 가야 해." }
+];

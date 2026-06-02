@@ -1,0 +1,22 @@
+const list = [
+  { text: "You have to /wake up/ early.", translation: "너는 일찍 일어나야 해." },
+  { text: "You have to /drink/ more water.", translation: "너는 물을 더 마셔야 해." },
+  { text: "You have to /clean/ your room.", translation: "너는 방을 청소해야 해." },
+  { text: "You have to /study/ English today.", translation: "너는 오늘 영어 공부를 해야 해." },
+  { text: "You have to /call/ your mom.", translation: "너는 엄마에게 전화해야 해." },
+  { text: "You have to /wear/ a jacket.", translation: "너는 재킷을 입어야 해." },
+  { text: "You have to /finish/ this now.", translation: "너는 이걸 지금 끝내야 해." },
+  { text: "You have to /listen/ carefully.", translation: "너는 잘 들어야 해." },
+  { text: "You have to /take/ a rest.", translation: "너는 쉬어야 해." },
+  { text: "You have to /follow/ the rules.", translation: "너는 규칙을 지켜야 해." },
+  { text: "You have to be /quiet./", translation: "너는 조용히 해야 해." },
+  { text: "You have to /try/ again.", translation: "너는 다시 시도해야 해." },
+  { text: "You have to /hurry./", translation: "너는 서둘러야 해." },
+  { text: "You have to trust /yourself./", translation: "너는 자신을 믿어야 해." },
+  { text: "You have to /wait/ here.", translation: "너는 여기서 기다려야 해." },
+  { text: "You have to /save/ money.", translation: "너는 돈을 아껴야 해." },
+  { text: "You have to /check/ this.", translation: "너는 이걸 확인해야 해." },
+  { text: "You have to be /patient./", translation: "너는 참아야 해." },
+  { text: "You have to /come/ with me.", translation: "너는 나와 함께 와야 해." },
+  { text: "You have to /open/ the door.", translation: "너는 문을 열어야 해." }
+];

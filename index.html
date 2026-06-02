@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Optima:400,700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,,600,700&display=swap" />
+    <style>
+        body {
+            font-family: 'Pretendard', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <div class="content">
+                <div class="introduce">
+                    <div class="introduce-bx">
+                        <div class="introduce-text introduce-text-1">
+                            <span>오늘도 영어 단어 7개와</span>
+                        </div>
+                        <div class="introduce-text introduce-text-2">
+                            <span>응용 문장를 배워보세요.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-bx">
+                    <div class="word-bx">
+                        <div class="word-swiper-bx">
+                            <div class="word-swiper-gradient"></div>
+                            <div class="swiper">
+                                <div class="word swiper-wrapper">
+                                    <!-- <div class="word-content swiper-slide">
+                                        <span class="word-text">&nbsp;</span>
+                                        <div class="word-sentence">
+                                            <span class="word-sentence-text">&nbsp;</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="repeat-word-content">
+                            <span class="repeat-word-text">Repeat</span>
+                            <div class="repeat-word-sentence">
+                                <span class="repeat-word-sentence-text">복습해보세요</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sentence-bx">
+                        <div class="translation">
+                            <span class="translation-text">&nbsp;</span>
+                        </div>
+                        <div class="sentence">
+                            <div class="sentence-text">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn-play">재생</button>
+    </div>
+
+    <script src="data/introduce.js"></script>
+    <script src="data/20251030.js"></script>
+
+    <script src="js/App.js"></script>
+    <script src="js/App.audio.js"></script>
+
+    <script src="js/main/App.step.js"></script>
+    <script src="js/main/App.introduce-scene.js"></script>
+    <script src="js/main/App.index.js"></script>
+</body>
+
+</html>

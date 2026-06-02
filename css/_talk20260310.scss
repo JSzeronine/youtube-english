@@ -1,0 +1,110 @@
+
+
+
+.wrap-new-talk{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        width: 1920px;
+        height: 1080px;
+        // background-color: #000000;
+        .content-bx{
+            width: 100%;
+            display: flex;
+            gap: 50px;
+            height: 540px;
+            box-sizing: border-box;
+            padding: 50px;
+            position: relative;
+            z-index: 10;
+            &.en-bx{
+                justify-content: flex-end;
+                text-align: right;
+            }
+
+            .profile-bx{
+                flex-shrink: 0;
+                width: 400px;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 100%;
+                border: 5px solid rgba( 0, 0, 0, 0.5 );
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            .txt-container{
+                width: 100%;
+                padding: 30px 50px;
+                box-sizing: border-box;
+                // background-color: rgba( 255, 255, 255, 0.2 );
+                border-radius: 50px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                background-color: rgba( 255, 255, 255, 0.9 );
+
+                &.you-container{
+                    .en-txt{
+                        text-align: left;
+                    }
+
+                    .ko-txt{
+                        text-align: left;
+                    }
+                }
+
+                .en-txt{
+                    font-size: 100px;
+                    // color: #F9C802;
+                    color: #000000;
+                    // color: #ffffff;;
+                    font-weight: 700;
+                    line-height: 1.4;
+                    // text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                    text-shadow: 0 4px 8px #ffffff, 0 4px 0 #ffffff;
+                    // font-family: "BMDOHYEON_ttf";
+                    font-family: 'Montserrat';
+                    transform: scaleY(1.1);
+                }
+
+                .ko-txt{
+                    font-size: 50px;
+                    // color: #ffffff;
+                    color: rgba( 0, 0, 0, 0.6 );
+                    // color: #000000;
+                    // color: #ffffff;
+                    font-weight: 700;
+                    line-height: 1.0;
+                    // text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                    text-shadow: 0 4px 8px #ffffff, 0 4px 0 #ffffff;
+                    // font-family: "BMDOHYEON_ttf";
+                }
+            }
+        }
+
+        .line-bx{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+                display: block;
+                width: 1800px;
+                height: 2px;
+                background-color: rgba( 0, 0, 0, 0.1 );
+            }
+        }
+    }
+}

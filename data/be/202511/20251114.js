@@ -1,0 +1,22 @@
+const list = [
+  { text: "I need to /eat./", translation: "나 밥 먹어야 해." },
+  { text: "I need to /sleep./", translation: "나 자야 해." },
+  { text: "I need to /drink/ water.", translation: "나 물 마셔야 해." },
+  { text: "I need to /wash/ my hands.", translation: "나 손 씻어야 해." },
+  { text: "I need to /brush/ my teeth.", translation: "나 양치해야 해." },
+  { text: "I need to /clean up./", translation: "나 정리해야 해." },
+  { text: "I need to /go/ potty.", translation: "나 화장실 가야 해." },
+  { text: "I need to get /dressed./", translation: "나 옷 입어야 해." },
+  { text: "I need to /put on/ my shoes.", translation: "나 신발 신어야 해." },
+  { text: "I need to /go home./", translation: "나 집에 가야 해." },
+  { text: "I need to /wake up./", translation: "나 일어나야 해." },
+  { text: "I need to /listen./", translation: "나 들어야 해." },
+  { text: "I need to /share./", translation: "나 나눠야 해." },
+  { text: "I need to /be kind./", translation: "나 착해야 해." },
+  { text: "I need to /help mom./", translation: "나 엄마 도와야 해." },
+  { text: "I need to /say/ sorry.", translation: "나 미안하다고 해야 해." },
+  { text: "I need to /play/ nicely.", translation: "나 예쁘게 놀아야 해." },
+  { text: "I need to /sit/ down.", translation: "나 앉아야 해." },
+  { text: "I need to /hurry./", translation: "나 서둘러야 해." },
+  { text: "I need to /go to/ school.", translation: "나 학교 가야 해." }
+];

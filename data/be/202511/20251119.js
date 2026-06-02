@@ -1,0 +1,22 @@
+const list = [
+  { text: "Don't /run./", translation: "뛰지 마." },
+  { text: "Don't /shout./", translation: "소리 지르지 마." },
+  { text: "Don't /cry/ now.", translation: "지금 울지 마." },
+  { text: "Don't /touch/ that.", translation: "그거 만지지 마." },
+  { text: "Don't /hit/ me.", translation: "나 때리지 마." },
+  { text: "Don't throw /toys./", translation: "장난감 던지지 마." },
+  { text: "Don't /eat/ that.", translation: "그거 먹지 마." },
+  { text: "Don't /run/ away.", translation: "도망가지 마." },
+  { text: "Don't /take/ it.", translation: "그거 가져가지 마." },
+  { text: "Don't open the /door./", translation: "문 열지 마." },
+  { text: "Don't jump on the /bed./", translation: "침대에서 뛰지 마." },
+  { text: "Don't spill /water./", translation: "물 엎지르지 마." },
+  { text: "Don't /push/ him.", translation: "그 친구 밀지 마." },
+  { text: "Don't /break/ it.", translation: "그거 부수지 마." },
+  { text: "Don't /yell/ at me.", translation: "나한테 소리 지르지 마." },
+  { text: "Don't /climb/ that.", translation: "그거 올라가지 마." },
+  { text: "Don't /scribble/ there.", translation: "거기 낙서하지 마." },
+  { text: "Don't /kick/ the ball inside.", translation: "안에서 공 차지 마." },
+  { text: "Don't wake the /baby./", translation: "아기 깨우지 마." },
+  { text: "Don't /play/ with your food.", translation: "밥 가지고 장난치지 마." }
+];

@@ -1,0 +1,22 @@
+const list = [
+  { text: "I must /wake up now./", translation: "난 지금 일어나야 해요." },
+  { text: "I must /brush/ my teeth.", translation: "난 이를 닦아야 해요." },
+  { text: "I must wash my /hands./", translation: "난 손을 씻어야 해요." },
+  { text: "I must go to /school./", translation: "난 학교에 가야 해요." },
+  { text: "I must listen to my /teacher./", translation: "난 선생님 말씀을 들어야 해요." },
+  { text: "I must do my /homework./", translation: "난 숙제를 해야 해요." },
+  { text: "I must eat my /lunch./", translation: "난 점심을 먹어야 해요." },
+  { text: "I must be /kind/ to friends.", translation: "난 친구들에게 친절해야 해요." },
+  { text: "I must /clean/ my room.", translation: "난 내 방을 치워야 해요." },
+  { text: "I must go to bed /early./", translation: "난 일찍 자야 해요." },
+  { text: "I must /say/ sorry.", translation: "난 미안하다고 말해야 해요." },
+  { text: "I must /say/ thank you.", translation: "난 고맙다고 말해야 해요." },
+  { text: "I must /share/ my toys.", translation: "난 장난감을 나눠야 해요." },
+  { text: "I must /take/ a bath.", translation: "난 목욕해야 해요." },
+  { text: "I must /feed/ my pet.", translation: "난 내 반려동물에게 밥을 줘야 해요." },
+  { text: "I must wear my /shoes./", translation: "난 신발을 신어야 해요." },
+  { text: "I must hold my mom’s /hand./", translation: "난 엄마 손을 잡아야 해요." },
+  { text: "I must be /careful./", translation: "난 조심해야 해요." },
+  { text: "I must be /honest./", translation: "난 정직해야 해요." },
+  { text: "I must be /happy./", translation: "난 행복해야 해요." }
+];

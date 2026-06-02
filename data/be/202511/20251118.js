@@ -1,0 +1,22 @@
+const list = [
+  { text: "You can't /run here./", translation: "너는 여기서 뛰면 안 돼." },
+  { text: "You can't /hit your friend./", translation: "너는 친구를 때리면 안 돼." },
+  { text: "You can't /shout inside./", translation: "너는 안에서 소리 지르면 안 돼." },
+  { text: "You can't /touch that./", translation: "너는 그거 만지면 안 돼." },
+  { text: "You can't /go alone./", translation: "너는 혼자 가면 안 돼." },
+  { text: "You can't /eat candy now./", translation: "너는 지금 사탕 먹으면 안 돼." },
+  { text: "You can't /play here./", translation: "너는 여기서 놀면 안 돼." },
+  { text: "You can't /be rude./", translation: "너는 무례하게 하면 안 돼." },
+  { text: "You can't /take my toy./", translation: "너는 내 장난감 가져가면 안 돼." },
+  { text: "You can't /open the door./", translation: "너는 그 문 열면 안 돼." },
+  { text: "You can't /throw things./", translation: "너는 물건 던지면 안 돼." },
+  { text: "You can't /break it./", translation: "너는 그거 부수면 안 돼." },
+  { text: "You can't /lie./", translation: "너는 거짓말하면 안 돼." },
+  { text: "You can't /push people./", translation: "너는 사람을 밀면 안 돼." },
+  { text: "You can't /stand on the table./", translation: "너는 테이블 위에 올라가면 안 돼." },
+  { text: "You can't /run away./", translation: "너는 도망가면 안 돼." },
+  { text: "You can't /sleep late./", translation: "너는 늦게 자면 안 돼." },
+  { text: "You can't /make a mess./", translation: "너는 어질러 놓으면 안 돼." },
+  { text: "You can't /fight with friends./", translation: "너는 친구랑 싸우면 안 돼." },
+  { text: "You can't /forget your bag./", translation: "너는 가방을 잊으면 안 돼." }
+];

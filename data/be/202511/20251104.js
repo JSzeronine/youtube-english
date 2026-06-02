@@ -1,0 +1,22 @@
+const list = [
+    { text: "I could play with my /friends./", translation: "난 친구들과 놀 수 있었어요." },
+    { text: "I could run /fast./", translation: "난 빨리 달릴 수 있었어요." },
+    { text: "I could /jump/ high.", translation: "난 높이 뛸 수 있었어요." },
+    { text: "I could /draw/ a cat.", translation: "난 고양이를 그릴 수 있었어요." },
+    { text: "I could /sing a song./", translation: "난 노래를 부를 수 있었어요." },
+    { text: "I could help my /mom./", translation: "난 엄마를 도울 수 있었어요." },
+    { text: "I could ride my /bike./", translation: "난 자전거를 탈 수 있었어요." },
+    { text: "I could /read a book./", translation: "난 책을 읽을 수 있었어요." },
+    { text: "I could open the /door./", translation: "난 문을 열 수 있었어요." },
+    { text: "I could climb a /tree./", translation: "난 나무를 탈 수 있었어요." },
+    { text: "I could /swim/ in the pool.", translation: "난 수영장에서 수영할 수 있었어요." },
+    { text: "I could draw a /heart./", translation: "난 하트를 그릴 수 있었어요." },
+    { text: "I could count to /ten./", translation: "난 열까지 셀 수 있었어요." },
+    { text: "I could make a /cake./", translation: "난 케이크를 만들 수 있었어요." },
+    { text: "I could /dance/ with you.", translation: "난 너랑 춤출 수 있었어요." },
+    { text: "I could /smile/ big.", translation: "난 크게 웃을 수 있었어요." },
+    { text: "I could /kick/ the ball.", translation: "난 공을 찰 수 있었어요." },
+    { text: "I could wash my /hands./", translation: "난 손을 씻을 수 있었어요." },
+    { text: "I could draw a /star./", translation: "난 별을 그릴 수 있었어요." },
+    { text: "I could sing /very/ well.", translation: "난 노래를 정말 잘할 수 있었어요." }
+  ];

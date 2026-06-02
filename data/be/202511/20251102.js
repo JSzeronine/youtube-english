@@ -1,0 +1,22 @@
+const list = [
+    { text: "I can /run/ fast.", translation: "난 빨리 달릴 수 있어." },
+    { text: "I can /jump/ high.", translation: "난 높이 뛸 수 있어." },
+    { text: "I can /sing a song./", translation: "난 노래를 부를 수 있어." },
+    { text: "I can /draw a cat./", translation: "난 고양이를 그릴 수 있어." },
+    { text: "I can /read a book./", translation: "난 책을 읽을 수 있어." },
+    { text: "I can /write my name./", translation: "난 내 이름을 쓸 수 있어." },
+    { text: "I can /ride a bike./", translation: "난 자전거를 탈 수 있어." },
+    { text: "I can /swim well./", translation: "난 수영을 잘할 수 있어." },
+    { text: "I can /dance like a robot./", translation: "난 로봇처럼 춤출 수 있어." },
+    { text: "I can /count to ten./", translation: "난 열까지 셀 수 있어." },
+    { text: "I can /make a cake./", translation: "난 케이크를 만들 수 있어." },
+    { text: "I can /open the door./", translation: "난 문을 열 수 있어." },
+    { text: "I can /close my eyes./", translation: "난 눈을 감을 수 있어." },
+    { text: "I can /kick a ball./", translation: "난 공을 찰 수 있어." },
+    { text: "I can /clap my hands./", translation: "난 손뼉을 칠 수 있어." },
+    { text: "I can /draw a heart./", translation: "난 하트를 그릴 수 있어." },
+    { text: "I can /wash my hands./", translation: "난 손을 씻을 수 있어." },
+    { text: "I can /help my mom./", translation: "난 엄마를 도울 수 있어." },
+    { text: "I can /feed my dog./", translation: "난 내 강아지에게 밥을 줄 수 있어." },
+    { text: "I can /smile big./", translation: "난 크게 웃을 수 있어." }
+];

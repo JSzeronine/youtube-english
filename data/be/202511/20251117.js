@@ -1,0 +1,22 @@
+const list = [
+  { text: "You should sleep early.", translation: "너는 일찍 자야 해." },
+  { text: "You should eat your lunch.", translation: "너는 점심을 먹어야 해." },
+  { text: "You should brush your teeth.", translation: "너는 이를 닦아야 해." },
+  { text: "You should wash your hands.", translation: "너는 손을 씻어야 해." },
+  { text: "You should be kind.", translation: "너는 착해야 해." },
+  { text: "You should listen to your teacher.", translation: "너는 선생님 말씀을 들어야 해." },
+  { text: "You should share your toys.", translation: "너는 장난감을 나눠야 해." },
+  { text: "You should play nicely.", translation: "너는 예쁘게 놀아야 해." },
+  { text: "You should clean your room.", translation: "너는 방을 치워야 해." },
+  { text: "You should say thank you.", translation: "너는 고맙다고 말해야 해." },
+  { text: "You should help your mom.", translation: "너는 엄마를 도와야 해." },
+  { text: "You should sit down.", translation: "너는 앉아야 해." },
+  { text: "You should put on your shoes.", translation: "너는 신발을 신어야 해." },
+  { text: "You should drink water.", translation: "너는 물을 마셔야 해." },
+  { text: "You should be careful.", translation: "너는 조심해야 해." },
+  { text: "You should finish your homework.", translation: "너는 숙제를 끝내야 해." },
+  { text: "You should go to school on time.", translation: "너는 제시간에 학교에 가야 해." },
+  { text: "You should play with friends.", translation: "너는 친구들과 놀아야 해." },
+  { text: "You should say sorry.", translation: "너는 미안하다고 말해야 해." },
+  { text: "You should wash your face.", translation: "너는 세수를 해야 해." }
+];

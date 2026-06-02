@@ -1,0 +1,22 @@
+const list = [
+  { text: "It looks /fun./", translation: "그거 재미있어 보여." },
+  { text: "It looks /yummy./", translation: "그거 맛있어 보여." },
+  { text: "It looks /big./", translation: "그거 커 보여." },
+  { text: "It looks /small./", translation: "그거 작아 보여." },
+  { text: "It looks /cute./", translation: "그거 귀여워 보여." },
+  { text: "It looks /scary./", translation: "그거 무서워 보여." },
+  { text: "It looks /soft./", translation: "그거 부드러워 보여." },
+  { text: "It looks /hard./", translation: "그거 딱딱해 보여." },
+  { text: "It looks /sweet./", translation: "그거 달콤해 보여." },
+  { text: "It looks /cold./", translation: "그거 차가워 보여." },
+  { text: "It looks /warm./", translation: "그거 따뜻해 보여." },
+  { text: "It looks /heavy./", translation: "그거 무거워 보여." },
+  { text: "It looks /light./", translation: "그거 가벼워 보여." },
+  { text: "It looks /clean./", translation: "그거 깨끗해 보여." },
+  { text: "It looks /dirty./", translation: "그거 더러워 보여." },
+  { text: "It looks /pretty./", translation: "그거 예뻐 보여." },
+  { text: "It looks /new./", translation: "그거 새 것 같아 보여." },
+  { text: "It looks /old./", translation: "그거 오래돼 보여." },
+  { text: "It looks /slow./", translation: "그거 느려 보여." },
+  { text: "It looks /fast./", translation: "그거 빨라 보여." }
+];

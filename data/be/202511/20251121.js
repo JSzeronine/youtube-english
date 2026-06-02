@@ -1,0 +1,22 @@
+const list = [
+  { text: "Let me /help/ you.", translation: "나 도와줄게." },
+  { text: "Let me /try/ it.", translation: "나 한번 해볼게." },
+  { text: "Let me /hold/ that.", translation: "그거 내가 들게." },
+  { text: "Let me /open/ it.", translation: "나 이거 열어볼게." },
+  { text: "Let me push /the button./", translation: "버튼 내가 눌러볼게." },
+  { text: "Let me /show/ you.", translation: "내가 보여줄게." },
+  { text: "Let me /check/ it.", translation: "내가 확인해볼게." },
+  { text: "Let me /clean/ up.", translation: "내가 치울게." },
+  { text: "Let me /carry/ this.", translation: "이거 내가 옮길게." },
+  { text: "Let me /play/ too.", translation: "나도 같이 놀게 해줘." },
+  { text: "Let me /draw/ it.", translation: "그거 내가 그릴게." },
+  { text: "Let me /read/ it.", translation: "내가 읽어볼게." },
+  { text: "Let me /sit/ there.", translation: "거기 내가 앉을게." },
+  { text: "Let me /hold/ your hand.", translation: "내가 손 잡아줄게." },
+  { text: "Let me /help/ the baby.", translation: "아기 도와줄게." },
+  { text: "Let me /check/ the door.", translation: "문 내가 확인할게." },
+  { text: "Let me /pick/ it up.", translation: "그거 내가 주울게." },
+  { text: "Let me go /first./", translation: "내가 먼저 갈게." },
+  { text: "Let me /turn/ it on.", translation: "이거 내가 켤게." },
+  { text: "Let me /wash/ my hands.", translation: "손 씻고 올게." }
+];

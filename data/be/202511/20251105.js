@@ -1,0 +1,22 @@
+const list = [
+  { text: "I will wake up /early./", translation: "난 일찍 일어날 거예요." },
+  { text: "I will /brush/ my teeth.", translation: "난 이를 닦을 거예요." },
+  { text: "I will eat my /breakfast./", translation: "난 아침을 먹을 거예요." },
+  { text: "I will go to /school./", translation: "난 학교에 갈 거예요." },
+  { text: "I will draw a /picture./", translation: "난 그림을 그릴 거예요." },
+  { text: "I will listen to my /teacher./", translation: "난 선생님 말씀을 들을 거예요." },
+  { text: "I will /play/ with my toys.", translation: "난 장난감으로 놀 거예요." },
+  { text: "I will /share/ my snack.", translation: "난 간식을 나눌 거예요." },
+  { text: "I will help my /mom./", translation: "난 엄마를 도울 거예요." },
+  { text: "I will feed my /pet./", translation: "난 내 반려동물에게 밥을 줄 거예요." },
+  { text: "I will go to the /park./", translation: "난 공원에 갈 거예요." },
+  { text: "I will ride my /bike./", translation: "난 자전거를 탈 거예요." },
+  { text: "I will play with my /friends./", translation: "난 친구들과 놀 거예요." },
+  { text: "I will /sing a song./", translation: "난 노래를 부를 거예요." },
+  { text: "I will /dance/ and smile.", translation: "난 춤추고 웃을 거예요." },
+  { text: "I will /read a book./", translation: "난 책을 읽을 거예요." },
+  { text: "I will /say/ thank you.", translation: "난 고맙다고 말할 거예요." },
+  { text: "I will clean /my room./", translation: "난 내 방을 청소할 거예요." },
+  { text: "I will be nice to /everyone./", translation: "난 모두에게 친절할 거예요." },
+  { text: "I will be /happy/ today.", translation: "난 오늘 행복할 거예요." }
+];

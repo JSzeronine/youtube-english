@@ -1,0 +1,22 @@
+const list = [
+  { text: "They are playing.", translation: "그들은 놀고 있어." },
+  { text: "They are running.", translation: "그들은 달리고 있어." },
+  { text: "They are eating /snacks./", translation: "그들은 간식을 먹고 있어." },
+  { text: "They are singing.", translation: "그들은 노래하고 있어." },
+  { text: "They are dancing.", translation: "그들은 춤추고 있어." },
+  { text: "They are drawing.", translation: "그들은 그림 그리고 있어." },
+  { text: "They are reading /books./", translation: "그들은 책을 읽고 있어." },
+  { text: "They are jumping.", translation: "그들은 점프하고 있어." },
+  { text: "They are talking.", translation: "그들은 이야기하고 있어." },
+  { text: "They are laughing.", translation: "그들은 웃고 있어." },
+  { text: "They are swimming.", translation: "그들은 수영하고 있어." },
+  { text: "They are working /together./", translation: "그들은 함께 일하고 있어." },
+  { text: "They are making /cookies./", translation: "그들은 쿠키를 만들고 있어." },
+  { text: "They are building /blocks./", translation: "그들은 블록을 쌓고 있어." },
+  { text: "They are watching /cartoons./", translation: "그들은 만화를 보고 있어." },
+  { text: "They are riding /bikes./", translation: "그들은 자전거를 타고 있어." },
+  { text: "They are cleaning /up./", translation: "그들은 정리하고 있어." },
+  { text: "They are helping /mom./", translation: "그들은 엄마를 돕고 있어." },
+  { text: "They are waiting.", translation: "그들은 기다리고 있어." },
+  { text: "They are smiling.", translation: "그들은 웃고 있어." }
+];

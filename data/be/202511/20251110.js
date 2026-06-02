@@ -1,0 +1,22 @@
+const list = [
+  { text: "I had better /wake up now./", translation: "난 지금 일어나는 게 좋겠어요." },
+  { text: "I had better brush /my teeth./", translation: "난 이를 닦는 게 좋겠어요." },
+  { text: "I had better wash /my hands./", translation: "난 손을 씻는 게 좋겠어요." },
+  { text: "I had better eat /breakfast./", translation: "난 아침을 먹는 게 좋겠어요." },
+  { text: "I had better /go to school./", translation: "난 학교에 가는 게 좋겠어요." },
+  { text: "I had better /listen/ to my teacher.", translation: "난 선생님 말씀을 듣는 게 좋겠어요." },
+  { text: "I had better /do/ my homework.", translation: "난 숙제를 하는 게 좋겠어요." },
+  { text: "I had better /wear/ my coat.", translation: "난 코트를 입는 게 좋겠어요." },
+  { text: "I had better take /my umbrella./", translation: "난 우산을 가져가는 게 좋겠어요." },
+  { text: "I had better /eat/ my lunch.", translation: "난 점심을 먹는 게 좋겠어요." },
+  { text: "I had better be /kind./", translation: "난 친절한 게 좋겠어요." },
+  { text: "I had better share my /toys./", translation: "난 장난감을 나누는 게 좋겠어요." },
+  { text: "I had better /say/ sorry.", translation: "난 미안하다고 말하는 게 좋겠어요." },
+  { text: "I had better /say/ thank you.", translation: "난 고맙다고 말하는 게 좋겠어요." },
+  { text: "I had better clean /my room./", translation: "난 내 방을 치우는 게 좋겠어요." },
+  { text: "I had better be /careful./", translation: "난 조심하는 게 좋겠어요." },
+  { text: "I had better feed /my pet./", translation: "난 내 반려동물에게 밥을 주는 게 좋겠어요." },
+  { text: "I had better go to bed /early./", translation: "난 일찍 자는 게 좋겠어요." },
+  { text: "I had better /not/ be late.", translation: "난 늦지 않는 게 좋겠어요." },
+  { text: "I had better /smile/ today.", translation: "난 오늘 웃는 게 좋겠어요." }
+];

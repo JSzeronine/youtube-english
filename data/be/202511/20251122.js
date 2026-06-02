@@ -1,0 +1,22 @@
+const list = [
+  { text: "Can you /help/ me?", translation: "도와줄래?" },
+  { text: "Can you /open/ this?", translation: "이거 열어줄래?" },
+  { text: "Can you /hold/ this?", translation: "이거 잡아줄래?" },
+  { text: "Can you /come/ here?", translation: "여기로 와줄래?" },
+  { text: "Can you /sit/ down?", translation: "앉아줄래?" },
+  { text: "Can you /play/ with me?", translation: "나랑 놀아줄래?" },
+  { text: "Can you /read/ this?", translation: "이거 읽어줄래?" },
+  { text: "Can you /get/ my toy?", translation: "내 장난감 가져다줄래?" },
+  { text: "Can you /draw/ with me?", translation: "나랑 같이 그려줄래?" },
+  { text: "Can you /find/ it?", translation: "그거 찾아줄래?" },
+  { text: "Can you /listen/?", translation: "들어줄래?" },
+  { text: "Can you /wait/ for me?", translation: "나 기다려줄래?" },
+  { text: "Can you /close/ the door?", translation: "문 닫아줄래?" },
+  { text: "Can you /wash/ your hands?", translation: "손 씻어줄래?" },
+  { text: "Can you /smile/?", translation: "웃어줄래?" },
+  { text: "Can you /share/ with me?", translation: "나랑 나눠줄래?" },
+  { text: "Can you /be quiet/?", translation: "조용히 해줄래?" },
+  { text: "Can you /turn/ on the light?", translation: "불 켜줄래?" },
+  { text: "Can you /pick/ it up?", translation: "그거 주워줄래?" },
+  { text: "Can you /show/ me?", translation: "나에게 보여줄래?" }
+];

@@ -1,0 +1,22 @@
+const list = [
+  { text: "I may go to the /park./", translation: "난 공원에 갈지도 몰라요." },
+  { text: "I may play with my /friends./", translation: "난 친구들이랑 놀지도 몰라요." },
+  { text: "I may draw a /picture./", translation: "난 그림을 그릴지도 몰라요." },
+  { text: "I may eat /ice cream./", translation: "난 아이스크림을 먹을지도 몰라요." },
+  { text: "I may see a /rainbow./", translation: "난 무지개를 볼지도 몰라요." },
+  { text: "I may /sing/ a song.", translation: "난 노래를 부를지도 몰라요." },
+  { text: "I may /dance/ today.", translation: "난 오늘 춤출지도 몰라요." },
+  { text: "I may /read/ a book.", translation: "난 책을 읽을지도 몰라요." },
+  { text: "I may /help/ my mom.", translation: "난 엄마를 도울지도 몰라요." },
+  { text: "I may /clean/ my room.", translation: "난 내 방을 청소할지도 몰라요." },
+  { text: "I may take a /nap./", translation: "난 낮잠을 잘지도 몰라요." },
+  { text: "I may play with my /toy./", translation: "난 장난감으로 놀지도 몰라요." },
+  { text: "I may draw with /crayons./", translation: "난 크레파스로 그림을 그릴지도 몰라요." },
+  { text: "I may make /cookies./", translation: "난 쿠키를 만들지도 몰라요." },
+  { text: "I may go /swimming./", translation: "난 수영하러 갈지도 몰라요." },
+  { text: "I may see /Grandma./", translation: "난 할머니를 뵐지도 몰라요." },
+  { text: "I may /smile/ all day.", translation: "난 하루 종일 웃을지도 몰라요." },
+  { text: "I may eat /some fruit./", translation: "난 과일을 먹을지도 몰라요." },
+  { text: "I may /watch/ the stars.", translation: "난 별을 볼지도 몰라요." },
+  { text: "I may be /happy/ today.", translation: "난 오늘 행복할지도 몰라요." }
+];

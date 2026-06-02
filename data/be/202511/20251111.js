@@ -1,0 +1,22 @@
+const list = [
+  { text: "Would you like /some milk?/", translation: "우유 마실래요?" },
+  { text: "Would you like /some juice?/", translation: "주스 마실래요?" },
+  { text: "Would you like /some water?/", translation: "물 마실래요?" },
+  { text: "Would you like /some cookies?/", translation: "쿠키 먹을래요?" },
+  { text: "Would you like /some ice cream?/", translation: "아이스크림 먹을래요?" },
+  { text: "Would you like /some fruit?/", translation: "과일 먹을래요?" },
+  { text: "Would you like /some rice?/", translation: "밥 먹을래요?" },
+  { text: "Would you like /some soup?/", translation: "수프 먹을래요?" },
+  { text: "Would you like a /toy?/", translation: "장난감 갖고 놀래요?" },
+  { text: "Would you like a /story?/", translation: "이야기 들을래요?" },
+  { text: "Would you like /to draw?/", translation: "그림 그릴래요?" },
+  { text: "Would you like /to sing?/", translation: "노래 부를래요?" },
+  { text: "Would you like /to dance?/", translation: "춤출래요?" },
+  { text: "Would you like /to play?/", translation: "놀래요?" },
+  { text: "Would you like /to go out?/", translation: "밖에 나갈래요?" },
+  { text: "Would you like /to ride a bike?/", translation: "자전거 탈래요?" },
+  { text: "Would you like /to go to the park?/", translation: "공원에 갈래요?" },
+  { text: "Would you like /to read a book?/", translation: "책 읽을래요?" },
+  { text: "Would you like /to help me?/", translation: "나 도와줄래요?" },
+  { text: "Would you like /to sleep now?/", translation: "지금 잘래요?" }
+];

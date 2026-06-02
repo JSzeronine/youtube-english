@@ -1,0 +1,22 @@
+const list = [
+  { text: "I would /play/ with you.", translation: "난 너랑 놀 거예요." },
+  { text: "I would /give you/ my toy.", translation: "난 내 장난감을 너에게 줄 거예요." },
+  { text: "I would /hug/ my mom.", translation: "난 엄마를 안을 거예요." },
+  { text: "I would help my /dad./", translation: "난 아빠를 도울 거예요." },
+  { text: "I would feed my /cat./", translation: "난 내 고양이에게 밥을 줄 거예요." },
+  { text: "I would share my /snack./", translation: "난 간식을 나눌 거예요." },
+  { text: "I would /clean/ my room.", translation: "난 내 방을 청소할 거예요." },
+  { text: "I would /draw/ a big sun.", translation: "난 큰 해를 그릴 거예요." },
+  { text: "I would sing a /happy/ song.", translation: "난 신나는 노래를 부를 거예요." },
+  { text: "I would run /very/ fast.", translation: "난 아주 빨리 달릴 거예요." },
+  { text: "I would /jump/ in the rain.", translation: "난 비 속에서 뛸 거예요." },
+  { text: "I would /make/ a cake.", translation: "난 케이크를 만들 거예요." },
+  { text: "I would /visit/ Grandma.", translation: "난 할머니 댁에 갈 거예요." },
+  { text: "I would go to the /park./", translation: "난 공원에 갈 거예요." },
+  { text: "I would /play/ in the sand.", translation: "난 모래에서 놀 거예요." },
+  { text: "I would /watch/ the stars.", translation: "난 별을 볼 거예요." },
+  { text: "I would /smile/ at my friend.", translation: "난 친구에게 웃을 거예요." },
+  { text: "I would say /thank you./", translation: "난 고맙다고 말할 거예요." },
+  { text: "I would draw with /colors./", translation: "난 색칠하면서 그림을 그릴 거예요." },
+  { text: "I would be /kind/ today.", translation: "난 오늘 친절할 거예요." }
+];

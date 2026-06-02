@@ -1,0 +1,356 @@
+.talk-new {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .message-bx {
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
+
+        span {
+
+            &.hand {
+                animation: bounce-hand 0.5s infinite alternate;
+                display: inline-block;
+            }
+
+            @keyframes bounce-hand {
+                from {
+                    transform: translateY(2px);
+                }
+
+                to {
+                    transform: translateY(8px);
+                }
+            }
+
+            &:nth-child(2) {
+                border-bottom: 2px solid white;
+                font-size: 24px;
+                // color: #FF8DBA;
+                color: #ffffff;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .img-bx {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 720px;
+        height: 1280px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .inner {
+        z-index: 100;
+
+        width: 720px;
+        height: 1280px;
+        // background: #000;
+        // background: #232b2b;
+        background: rgba(#3a4a4a, 0.9);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        .title-bx {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            box-sizing: border-box;
+
+            h1 {
+                padding: 70px 0px 10px;
+                border-bottom: 2px solid gray;
+                background-color: rgba( 0, 0, 0, 0.3 );
+
+                span {
+                    font-size: 35px;
+                    color: #ffffff;
+                    font-weight: 700;
+                    text-align: center;
+                    display: block;
+                    line-height: 1.1;
+                    text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                    font-family: "BMDOHYEON_ttf";
+
+                    &:nth-child(1) {
+                        font-size: 60px;
+                        color: #ffe082;
+                        line-height: 1.2;
+
+                        span{
+                            color: #FE68AD;
+                            font-size: 80px;
+                            line-height: 1.2;
+                        }
+                    }
+
+                    &.step-num {
+                        font-size: 24px;
+                        font-weight: 500;
+                        color: #ffe082;
+                        opacity: 0;
+                    }
+
+                    > div{
+                        padding-top: 10px;
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .text-bx{
+                opacity: 0;
+                text-align: left;
+                padding-top: 30px;
+                padding-left: 40px;
+                box-sizing: border-box;
+                span{
+                    font-size: 30px;
+                    color: #fff;
+                    font-weight: 500;
+                    text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                    text-align: center;
+                    padding-bottom: 5px;
+                }
+
+            }
+        }
+
+
+        .study-bx{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .bx {
+            .en-bx{
+                position: absolute;
+                left: 0;
+                top: 450px;
+                width: 100%;
+
+                .en-txt{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    ul{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            opacity: 0;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            font-size: 40px;
+                            color: white;
+                            font-weight: 700;
+                            text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                            font-family: "BMDOHYEON_ttf";
+                        }
+                    }
+                }
+
+                .en-list{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+                    ul{
+                        position: absolute;
+                        left: 50%;
+                        top: 0;
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                        transform: translateX(-50%);
+                        flex-wrap: wrap;
+                        width: 700px;
+                        li{
+                            opacity: 0;
+                            font-size: 40px;
+                            color: white;
+                            font-weight: 700;
+                            text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                            font-family: "BMDOHYEON_ttf";
+                        }
+                    }
+                }
+            }
+
+            .ko-bx{
+                position: absolute;
+                left: 0;
+                top: 750px;
+                width: 100%;
+
+                .ko-txt{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    ul{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            opacity: 0;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            font-size: 35px;
+                            color: white;
+                            font-weight: 700;
+                            text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                            font-family: "BMDOHYEON_ttf";
+                        }
+                    }
+                }
+
+                .ko-list{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+
+                    ul{
+                        position: absolute;
+                        left: 50%;
+                        top: 0;
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                        transform: translateX(-50%);
+                        flex-wrap: wrap;
+                        width: 500px;
+                        li{
+                            opacity: 0;
+                            font-size: 35px;
+                            color: white;
+                            font-weight: 700;
+                            text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                            font-family: "BMDOHYEON_ttf";
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-stop {
+            position: absolute;
+            bottom: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            button {
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                background: #ff4949;
+                color: #fffbe8;
+                font-size: 27px;
+                font-weight: bold;
+                border: none;
+                position: relative;
+                letter-spacing: 2px;
+                outline: none;
+                text-shadow: 0 3px 8px #0a120a, 0 3px 0 #000;
+                box-shadow:
+                    0 8px 24px rgba(255, 60, 60, 0.35), // 기존 그림자 (붉은 외곽)
+                    0 2px 8px #430000, // 기존 그림자 (진한 붉은 외곽)
+                    0 4px 0 0 #ce3131, // 아래쪽 밝은 붉은 그림자 (볼록한 느낌)
+                    0 10px 20px 0 rgba(230, 50, 50, 0.40), // 버튼 하단 멀리 번지는 붉은 그림자
+                    inset 0 3px 8px 0 #fff5e2, // 안쪽 위쪽 밝은 그림자(빛 반사)
+                    inset 0 -4px 12px 0 #940808; // 안쪽 아래쪽 어두운 그림자(볼록 음영)
+            }
+        }
+    }
+
+    .timer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        font-size: 100px;
+        color: #ffffff;
+        pointer-events: none;
+    }
+
+    .btn-start {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 100px;
+        background: #ffe082;
+        color: #1b3c1a;
+        font-size: 20px;
+    }
+}
+
+.btn-stop {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    button {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background: #ff4949;
+        color: #fffbe8;
+        font-size: 27px;
+        font-weight: bold;
+        border: none;
+        position: relative;
+        letter-spacing: 2px;
+        outline: none;
+        text-shadow: 0 3px 8px #0a120a, 0 3px 0 #000;
+        box-shadow:
+            0 8px 24px rgba(255, 60, 60, 0.35), // 기존 그림자 (붉은 외곽)
+            0 2px 8px #430000, // 기존 그림자 (진한 붉은 외곽)
+            0 4px 0 0 #ce3131, // 아래쪽 밝은 붉은 그림자 (볼록한 느낌)
+            0 10px 20px 0 rgba(230, 50, 50, 0.40), // 버튼 하단 멀리 번지는 붉은 그림자
+            inset 0 3px 8px 0 #fff5e2, // 안쪽 위쪽 밝은 그림자(빛 반사)
+            inset 0 -4px 12px 0 #940808; // 안쪽 아래쪽 어두운 그림자(볼록 음영)
+    }
+}

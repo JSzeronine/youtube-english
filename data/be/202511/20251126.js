@@ -1,0 +1,22 @@
+const list = [
+  { text: "We want to /play./", translation: "우리는 놀고 싶어." },
+  { text: "We want to /run./", translation: "우리는 달리고 싶어." },
+  { text: "We want to /eat/ snacks.", translation: "우리는 간식을 먹고 싶어." },
+  { text: "We want to /draw/ a picture.", translation: "우리는 그림을 그리고 싶어." },
+  { text: "We want to go /outside./", translation: "우리는 밖에 나가고 싶어." },
+  { text: "We want to /sing./", translation: "우리는 노래하고 싶어." },
+  { text: "We want to /dance./", translation: "우리는 춤추고 싶어." },
+  { text: "We want to read a /book./", translation: "우리는 책을 읽고 싶어." },
+  { text: "We want to /watch/ cartoons.", translation: "우리는 만화를 보고 싶어." },
+  { text: "We want to /make/ cookies.", translation: "우리는 쿠키를 만들고 싶어." },
+  { text: "We want to /build/ blocks.", translation: "우리는 블록을 쌓고 싶어." },
+  { text: "We want to /color./" , translation: "우리는 색칠하고 싶어." },
+  { text: "We want to /swim./", translation: "우리는 수영하고 싶어." },
+  { text: "We want to play /games./", translation: "우리는 게임하고 싶어." },
+  { text: "We want to visit /grandma./", translation: "우리는 할머니 집에 가고 싶어." },
+  { text: "We want to /ride/ bikes.", translation: "우리는 자전거 타고 싶어." },
+  { text: "We want to /pet/ the cat.", translation: "우리는 고양이를 쓰다듬고 싶어." },
+  { text: "We want to /help/ mom.", translation: "우리는 엄마를 돕고 싶어." },
+  { text: "We want to /open/ gifts.", translation: "우리는 선물 열고 싶어." },
+  { text: "We want to go to the /park./", translation: "우리는 공원에 가고 싶어." }
+];

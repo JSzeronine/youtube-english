@@ -1,0 +1,251 @@
+.short-story {
+    button {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+    }
+
+    .inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        // background: #f0ece7;
+        // background: #fffbe8;
+        // background: linear-gradient(180deg, #f0ece7 0%, #fffbe8 100%);
+        // background: linear-gradient(180deg, #f0ece7 0%, #fffbe8 100%);
+        background: linear-gradient(180deg, #e3d8bc 0%, #fffbe8 100%);
+        // background: linear-gradient(180deg, #d2b48c 0%, #fffbe8 100%);
+    }
+
+    .content {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 720px;
+        height: 1280px;
+        background-color: rgba(#fffbe8, 0.5);
+        box-shadow: 0 8px 30px rgba(130, 100, 45, 0.10), 0 1.5px 0 #efe4c9 inset;
+        border-radius: 18px;
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #e3d8bc;
+        transition: box-shadow 0.18s cubic-bezier(0.26, 0.72, 0.52, 1);
+        box-sizing: border-box;
+
+        .content-bx {
+            position: relative;
+            z-index: 10;
+        }
+
+        .image-bx {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+
+            img {
+                position: absolute;
+                bottom: -174px;
+                left: 0;
+                width: 100%;
+                // height: 100%;
+                object-fit: cover;
+                opacity: 0.5;
+            }
+        }
+
+        .title-bx {
+            padding: 90px 0 12px;
+            background: linear-gradient(90deg, #fcf8ed 74%, #efe4c9 100%);
+            border-bottom: 2px solid #eadbb9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+                font-family: 'Optima', 'Montserrat', 'Pretendard', system-ui, sans-serif;
+                font-size: 40px;
+                font-weight: 700;
+                color: #283553;
+                line-height: 1.22;
+                letter-spacing: 0.02em;
+                margin-bottom: 7px;
+                text-shadow: 0 2px 0 #efe4c9;
+                text-align: center;
+                border-bottom: 5px solid #eadbb9;
+            }
+
+            h3 {
+                font-size: 28px;
+                font-weight: 700;
+                color: #283553;
+                line-height: 1.22;
+                letter-spacing: 0.02em;
+                margin-bottom: 7px;
+                text-shadow: 0 2px 0 #efe4c9;
+                text-align: center;
+                gap: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    display: inline-block;
+                    padding: 0px 5px;
+                    color: #b49c63;
+                    border: 2px dotted #eadbb9;
+                    opacity: 0.4;
+                    transition: opacity 0.75s ease, color 0.75s ease, border 0.75s ease;
+
+                    &.on {
+                        border: 2px dotted #000000;
+                        color: #000000;
+                        opacity: 1;
+                        animation: scale-pop 0.75s cubic-bezier(0.33, 1, 0.68, 1);
+                    }
+
+                    @keyframes scale-pop {
+                        0% {
+                            transform: scale(1);
+                        }
+
+                        50% {
+                            transform: scale(1.1);
+                        }
+
+                        100% {
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .education-bx {
+            width: 100%;
+            padding: 20px 50px 15px;
+            box-sizing: border-box;
+
+            .education-list {
+                display: flex;
+                justify-content: flex-start;
+                gap: 5px;
+
+                &.right {
+                    .education {
+                        background-color: #ede8f6;
+
+                        dt {
+                            // color: #295aac;
+                        }
+                    }
+                }
+            }
+
+            .emoji {
+                font-size: 34px;
+                margin-right: 10px;
+                position: relative;
+                top: 10px;
+
+                .emoji-text {
+                    display: inline-block;
+                }
+            }
+
+            .education {
+                width: 100%;
+
+                &.right {
+                    align-items: flex-end;
+                }
+
+                // 말풍선 효과
+                background: #fffbe8;
+                border-radius: 22px;
+                margin-bottom: 18px;
+                padding: 15px 16px 10px;
+                box-shadow: 0 3px 18px rgba(202, 175, 115, 0.13),
+                0 1.5px 0 #efe4c9 inset;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                transition: background 0.18s,
+                border-color 0.18s;
+
+                display: flex;
+                flex-direction: column-reverse;
+
+                dt {
+                    font-size: 38px;
+                    color: #2a2456;
+                    text-shadow: 0 4px 14px rgba(34, 34, 34, 0.18), 0 2px 4px rgba(136, 136, 136, 0.19);
+                    font-weight: 700;
+                    letter-spacing: 0.007em;
+                    background: none;
+                    display: block;
+                    padding: 0 0 0 2px;
+                    border-radius: 0;
+                    box-shadow: none;
+                    border: none;
+                    line-height: 40px;
+
+                    >span {
+                        display: inline-block;
+                        overflow: hidden;
+                        border-bottom: 2px solid #b49c63;
+                        position: relative;
+                        top: 11px;
+                        padding-top: 5px;
+
+                        .answer {
+                            display: inline-block;
+                            transform: translateY(100%);
+                        }
+                    }
+                }
+
+                dd {
+                    margin-bottom: -2px;
+                    font-size: 20px;
+                    color: #9c864f; // 한글 뜻(원문) - 좀 밝은 브라운
+                    font-weight: 700;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    background: none;
+                    padding: 0;
+                    border-radius: 0;
+                    box-shadow: none;
+                    // opacity: 0;
+
+                    >p {
+                        overflow: hidden;
+                        padding: 0px 5px;
+
+                        &.on {
+                            border: 2px dotted #b49c63;
+
+                            span {
+                                transform: translateY(100%);
+                                color: #f3ba3a;
+                            }
+                        }
+
+                        span {
+                            display: inline-block;
+                            font-style: normal;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+const list = [
+  { text: "He likes to /play./", translation: "그는 노는 걸 좋아해." },
+  { text: "He likes to /run./", translation: "그는 달리는 걸 좋아해." },
+  { text: "He likes to /jump./", translation: "그는 점프하는 걸 좋아해." },
+  { text: "He likes to /draw./", translation: "그는 그림 그리는 걸 좋아해." },
+  { text: "He likes to /read./", translation: "그는 책 읽는 걸 좋아해." },
+  { text: "He likes to /sing./", translation: "그는 노래하는 걸 좋아해." },
+  { text: "He likes to /dance./", translation: "그는 춤추는 걸 좋아해." },
+  { text: "He likes to /swim./", translation: "그는 수영하는 걸 좋아해." },
+  { text: "He likes to /ride/ his bike.", translation: "그는 자전거 타는 걸 좋아해." },
+  { text: "He likes to /watch/ cartoons.", translation: "그는 만화 보는 걸 좋아해." },
+  { text: "He likes to /eat/ snacks.", translation: "그는 간식 먹는 걸 좋아해." },
+  { text: "He likes to /build/ blocks.", translation: "그는 블록 쌓는 걸 좋아해." },
+  { text: "He likes to /make/ sounds.", translation: "그는 소리 내는 걸 좋아해." },
+  { text: "He likes to /play/ games.", translation: "그는 게임하는 걸 좋아해." },
+  { text: "He likes to /help/ mom.", translation: "그는 엄마를 돕는 걸 좋아해." },
+  { text: "He likes to /draw/ animals.", translation: "그는 동물 그림 그리는 걸 좋아해." },
+  { text: "He likes to /play/ with friends.", translation: "그는 친구들이랑 노는 걸 좋아해." },
+  { text: "He likes to /pet/ the dog.", translation: "그는 강아지 쓰다듬는 걸 좋아해." },
+  { text: "He likes to /look/ at cars.", translation: "그는 자동차 보는 걸 좋아해." },
+  { text: "He likes to /smile./", translation: "그는 웃는 걸 좋아해." }
+];

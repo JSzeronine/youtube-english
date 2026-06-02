@@ -1,0 +1,22 @@
+const list = [
+  { text: "You need to /listen./", translation: "너 들어야 해." },
+  { text: "You need to /sit/ down.", translation: "너 앉아야 해." },
+  { text: "You need to be /careful./", translation: "너 조심해야 해." },
+  { text: "You need to /eat/ now.", translation: "너 지금 먹어야 해." },
+  { text: "You need to /sleep/ early.", translation: "너 일찍 자야 해." },
+  { text: "You need to /wash/ your hands.", translation: "너 손 씻어야 해." },
+  { text: "You need to /brush/ your teeth.", translation: "너 양치해야 해." },
+  { text: "You need to /clean/ up.", translation: "너 정리해야 해." },
+  { text: "You need to /share/ toys.", translation: "너 장난감을 나눠야 해." },
+  { text: "You need to be /kind./", translation: "너 착해야 해." },
+  { text: "You need to /hurry./", translation: "너 서둘러야 해." },
+  { text: "You need to get /ready./", translation: "너 준비해야 해." },
+  { text: "You need to /put/ on your shoes.", translation: "너 신발 신어야 해." },
+  { text: "You need to go /to school./", translation: "너 학교 가야 해." },
+  { text: "You need to /stay/ here.", translation: "너 여기 있어야 해." },
+  { text: "You need to /say/ sorry.", translation: "너 미안하다고 해야 해." },
+  { text: "You need to be /quiet./", translation: "너 조용히 해야 해." },
+  { text: "You need to /help/ mom.", translation: "너 엄마 도와야 해." },
+  { text: "You need to /try/ again.", translation: "너 다시 시도해야 해." },
+  { text: "You need to /listen/ to the teacher.", translation: "너 선생님 말씀 들어야 해." }
+];

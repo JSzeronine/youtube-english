@@ -1,0 +1,22 @@
+const list = [
+  { text: "I used to cry a /lot./", translation: "나 예전에 많이 울었어." },
+  { text: "I used to play /outside./", translation: "나 예전에 밖에서 놀았어." },
+  { text: "I used to run /fast./", translation: "나 예전에 빨리 달렸어." },
+  { text: "I used to draw /pictures./", translation: "나 예전에 그림을 그렸어." },
+  { text: "I used to sing /loudly./", translation: "나 예전에 크게 노래했어." },
+  { text: "I used to /sleep early./", translation: "나 예전에 일찍 잤어." },
+  { text: "I used to eat candy /every day./", translation: "나 예전에 매일 사탕을 먹었어." },
+  { text: "I used to /watch/ cartoons.", translation: "나 예전에 만화를 봤어." },
+  { text: "I used to /wear/ red shoes.", translation: "나 예전에 빨간 신발을 신었어." },
+  { text: "I used to like /robots./", translation: "나 예전에 로봇을 좋아했어." },
+  { text: "I used to have /long hair./", translation: "나 예전에 머리가 길었어." },
+  { text: "I used to /stay/ home a lot.", translation: "나 예전에 집에 많이 있었어." },
+  { text: "I used to /be shy./", translation: "나 예전에 부끄러움이 많았어." },
+  { text: "I used to /love/ dinosaurs.", translation: "나 예전에 공룡을 좋아했어." },
+  { text: "I used to /visit/ grandma often.", translation: "나 예전에 할머니 집에 자주 갔어." },
+  { text: "I used to play /with blocks./", translation: "나 예전에 블록으로 놀았어." },
+  { text: "I used to /like blue./", translation: "나 예전에 파란색을 좋아했어." },
+  { text: "I used to wake up /late./", translation: "나 예전에 늦게 일어났어." },
+  { text: "I used to drink milk /every day./", translation: "나 예전에 매일 우유를 마셨어." },
+  { text: "I used to /take naps./", translation: "나 예전에 낮잠을 잤어." }
+];

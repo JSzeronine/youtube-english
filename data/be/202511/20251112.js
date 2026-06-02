@@ -1,0 +1,22 @@
+const list = [
+  { text: "I have to /wake up/ now.", translation: "난 지금 일어나야 해요." },
+  { text: "I have to /brush/ my teeth.", translation: "난 이를 닦아야 해요." },
+  { text: "I have to /wash/ my face.", translation: "난 얼굴을 씻어야 해요." },
+  { text: "I have to eat /breakfast./", translation: "난 아침을 먹어야 해요." },
+  { text: "I have to go to /school./", translation: "난 학교에 가야 해요." },
+  { text: "I have to listen to /my teacher./", translation: "난 선생님 말씀을 들어야 해요." },
+  { text: "I have to /do/ my homework.", translation: "난 숙제를 해야 해요." },
+  { text: "I have to /clean/ my room.", translation: "난 내 방을 청소해야 해요." },
+  { text: "I have to be /kind/ to my friends.", translation: "난 친구들에게 친절해야 해요." },
+  { text: "I have to /share/ my toys.", translation: "난 장난감을 나눠야 해요." },
+  { text: "I have to eat my /lunch./", translation: "난 점심을 먹어야 해요." },
+  { text: "I have to /help/ my mom.", translation: "난 엄마를 도와야 해요." },
+  { text: "I have to /feed/ my pet.", translation: "난 내 반려동물에게 밥을 줘야 해요." },
+  { text: "I have to /wash/ my hands.", translation: "난 손을 씻어야 해요." },
+  { text: "I have to be /careful./", translation: "난 조심해야 해요." },
+  { text: "I have to /say/ sorry.", translation: "난 미안하다고 말해야 해요." },
+  { text: "I have to /say/ thank you.", translation: "난 고맙다고 말해야 해요." },
+  { text: "I have to /go to bed/ early.", translation: "난 일찍 자야 해요." },
+  { text: "I have to /turn off/ the light.", translation: "난 불을 꺼야 해요." },
+  { text: "I have to /sleep/ now.", translation: "난 이제 자야 해요." }
+];

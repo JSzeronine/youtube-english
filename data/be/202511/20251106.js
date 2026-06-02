@@ -1,0 +1,22 @@
+const list = [
+  { text: "I should /wake up/ early.", translation: "난 일찍 일어나야 해요." },
+  { text: "I should brush my /teeth./", translation: "난 이를 닦아야 해요." },
+  { text: "I should eat /my breakfast./", translation: "난 아침을 먹어야 해요." },
+  { text: "I should go to /school./", translation: "난 학교에 가야 해요." },
+  { text: "I should /listen/ to my teacher.", translation: "난 선생님 말씀을 들어야 해요." },
+  { text: "I should do my /homework./", translation: "난 숙제를 해야 해요." },
+  { text: "I should /clean/ my room.", translation: "난 내 방을 청소해야 해요." },
+  { text: "I should /wash/ my hands.", translation: "난 손을 씻어야 해요." },
+  { text: "I should share my /toys./", translation: "난 장난감을 나눠야 해요." },
+  { text: "I should /say/ sorry.", translation: "난 미안하다고 말해야 해요." },
+  { text: "I should say /thank you./", translation: "난 고맙다고 말해야 해요." },
+  { text: "I should /be/ nice to my friends.", translation: "난 친구들에게 친절해야 해요." },
+  { text: "I should /help/ my mom.", translation: "난 엄마를 도와야 해요." },
+  { text: "I should /take/ a bath.", translation: "난 목욕해야 해요." },
+  { text: "I should go to /bed/ early.", translation: "난 일찍 자야 해요." },
+  { text: "I should eat /vegetables./", translation: "난 채소를 먹어야 해요." },
+  { text: "I should /drink/ water.", translation: "난 물을 마셔야 해요." },
+  { text: "I should /be/ quiet in class.", translation: "난 수업 시간에 조용히 해야 해요." },
+  { text: "I should not /fight./", translation: "난 싸우면 안 돼요." },
+  { text: "I should /smile/ today.", translation: "난 오늘 웃어야 해요." }
+];

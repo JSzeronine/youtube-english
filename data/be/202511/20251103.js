@@ -1,0 +1,22 @@
+const list = [
+    { text: "Can I /go out/?", translation: "나 밖에 나가도 돼요?" },
+    { text: "Can I /play/ now?", translation: "지금 놀아도 돼요?" },
+    { text: "Can I /have/ this?", translation: "이거 가져도 돼요?" },
+    { text: "Can I /eat/ this?", translation: "이거 먹어도 돼요?" },
+    { text: "Can I /help you/?", translation: "도와드려도 돼요?" },
+    { text: "Can I /draw/?", translation: "그려도 돼요?" },
+    { text: "Can I /see/ it?", translation: "그거 봐도 돼요?" },
+    { text: "Can I /sit/ here?", translation: "여기 앉아도 돼요?" },
+    { text: "Can I /watch/ TV?", translation: "TV 봐도 돼요?" },
+    { text: "Can I play /outside/?", translation: "밖에서 놀아도 돼요?" },
+    { text: "Can I go /with you/?", translation: "같이 가도 돼요?" },
+    { text: "Can I have some /juice/?", translation: "주스 좀 마셔도 돼요?" },
+    { text: "Can I /touch/ it?", translation: "그거 만져도 돼요?" },
+    { text: "Can I /open/ it?", translation: "이거 열어도 돼요?" },
+    { text: "Can I /use/ this?", translation: "이거 써도 돼요?" },
+    { text: "Can I /try/?", translation: "해봐도 돼요?" },
+    { text: "Can I /dance/?", translation: "춤춰도 돼요?" },
+    { text: "Can I /sing a song/?", translation: "노래 불러도 돼요?" },
+    { text: "Can I go to the /park/?", translation: "공원 가도 돼요?" },
+    { text: "Can I /hug/ you?", translation: "안아도 돼요?" }
+];

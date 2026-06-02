@@ -1,0 +1,28 @@
+const list = [
+    {
+      word: "I can ~",
+      translation: "~할 수 있어요",
+      words: [
+        { sentence: "I can lift it.", translation: "난 그걸 들 수 있어.", w: "" },
+        { sentence: "I can ski.", translation: "난 스키 탈 수 있어.", w: "" },
+        { sentence: "I can drive.", translation: "난 운전할 수 있어.", w: "" },
+        { sentence: "I can swim.", translation: "난 수영할 수 있어.", w: "" },
+        { sentence: "I can play the guitar.", translation: "난 기타를 연주할 수 있어.", w: "" },
+        { sentence: "I can sing.", translation: "난 노래할 수 있어.", w: "" },
+        { sentence: "I can dance.", translation: "난 춤출 수 있어.", w: "" },
+        { sentence: "I can cook.", translation: "난 요리할 수 있어.", w: "" },
+        { sentence: "I can draw a cat.", translation: "난 고양이를 그릴 수 있어.", w: "" },
+        { sentence: "I can read English.", translation: "난 영어를 읽을 수 있어.", w: "" },
+        { sentence: "I can write a letter.", translation: "난 편지를 쓸 수 있어.", w: "" },
+        { sentence: "I can run fast.", translation: "난 빨리 달릴 수 있어.", w: "" },
+        { sentence: "I can jump high.", translation: "난 높이 뛸 수 있어.", w: "" },
+        { sentence: "I can use a computer.", translation: "난 컴퓨터를 사용할 수 있어.", w: "" },
+        { sentence: "I can ride a bike.", translation: "난 자전거를 탈 수 있어.", w: "" },
+        { sentence: "I can play soccer.", translation: "난 축구할 수 있어.", w: "" },
+        { sentence: "I can help you.", translation: "난 널 도울 수 있어.", w: "" },
+        { sentence: "I can hear you.", translation: "난 네 말이 들려.", w: "" },
+        { sentence: "I can see the stars.", translation: "난 별을 볼 수 있어.", w: "" },
+        { sentence: "I can speak English.", translation: "난 영어를 말할 수 있어.", w: "" },
+      ],
+    },
+  ];

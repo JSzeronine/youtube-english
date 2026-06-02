@@ -1,0 +1,310 @@
+.talk {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .message-bx {
+        position: absolute;
+        bottom: 250px;
+        left: 50px;
+
+        span {
+
+            &.hand {
+                animation: bounce-hand 0.5s infinite alternate;
+                display: inline-block;
+            }
+
+            @keyframes bounce-hand {
+                from {
+                    transform: translateY(2px);
+                }
+
+                to {
+                    transform: translateY(8px);
+                }
+            }
+
+            &:nth-child(2) {
+                border-bottom: 2px solid white;
+                font-size: 24px;
+                color: #FF8DBA;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .img-bx {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 720px;
+        height: 1280px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .inner {
+        z-index: 100;
+
+        width: 720px;
+        height: 1280px;
+        // background: #000;
+        // background: #232b2b;
+        background: rgba(#3a4a4a, 0.9);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+        .title-bx {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            padding: 100px 50px 0px;
+            box-sizing: border-box;
+
+            h1 {
+                border-bottom: 2px solid gray;
+                padding-bottom: 50px;
+
+                span {
+                    font-size: 35px;
+                    color: #ffffff;
+                    font-weight: 700;
+                    text-align: center;
+                    display: block;
+                    line-height: 1.1;
+                    text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+
+                    &:nth-child(1) {
+                        // color: #ffe082;
+                    }
+
+                    &:nth-child(2) {
+                        // color: #a259ec;
+                        margin-bottom: 20px;
+                    }
+
+                    &:nth-child(3) {
+                        font-size: 28px;
+                        font-weight: 500;
+                        color: #ffe082;
+                    }
+                }
+            }
+        }
+
+        .bx {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
+            box-sizing: border-box;
+            padding: 20px 95px 100px;
+
+            .text-bx {
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    justify-content: center;
+
+                    li {
+                        list-style: none;
+                        position: relative;
+
+                        span {
+                            color: white;
+                            font-size: 32px;
+                            font-weight: 700;
+                            transition: color 0.3s ease-out, opacity 0.3s ease-out;
+                            line-height: 80px;
+                            text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                        }
+
+                        p {
+                            position: absolute;
+                            font-size: 30px;
+                            font-weight: 500;
+                            color: white;
+                            border-radius: 100%;
+                            overflow: hidden;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            top: 80px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            opacity: 0;
+                            transition: opacity 0.3s ease-out, top 0.3s ease-out;
+                            box-sizing: border-box;
+                            padding-top: 2px;
+                            border-radius: 100%;
+                            overflow: hidden;
+                            background-color: #000000;
+                            width: 27px;
+                            height: 27px;
+                        }
+                    }
+                }
+
+                &.en {
+                    li {
+                        span {
+                            font-size: 40px;
+                        }
+
+                        &.on {
+                            p {
+                                opacity: 0;
+                                top: 72px;
+                            }
+
+                            span {
+                                color: #ffe082;
+                            }
+                        }
+
+                        &.on-line {
+                            span {
+                                border-bottom: 2px solid #ffe082;
+                            }
+                        }
+                    }
+                }
+
+                &.ko {
+                    padding: 0 50px;
+                    box-sizing: border-box;
+
+                    li {
+                        span {
+                            font-weight: 500;
+                            font-size: 30px;
+                        }
+
+                        &.on {
+                            p {
+                                opacity: 0;
+                                top: 72px;
+                            }
+
+                            span {
+                                opacity: 1;
+                                color: #1DFDFB;
+                            }
+                        }
+
+                        &.on-line {
+                            span {
+                                border-bottom: 2px solid #1DFDFB;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .btn-stop {
+            position: absolute;
+            bottom: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            button {
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                background: #ff4949;
+                color: #fffbe8;
+                font-size: 27px;
+                font-weight: bold;
+                border: none;
+                position: relative;
+                letter-spacing: 2px;
+                outline: none;
+                text-shadow: 0 3px 8px #0a120a, 0 3px 0 #000;
+                box-shadow:
+                    0 8px 24px rgba(255, 60, 60, 0.35), // 기존 그림자 (붉은 외곽)
+                    0 2px 8px #430000, // 기존 그림자 (진한 붉은 외곽)
+                    0 4px 0 0 #ce3131, // 아래쪽 밝은 붉은 그림자 (볼록한 느낌)
+                    0 10px 20px 0 rgba(230, 50, 50, 0.40), // 버튼 하단 멀리 번지는 붉은 그림자
+                    inset 0 3px 8px 0 #fff5e2, // 안쪽 위쪽 밝은 그림자(빛 반사)
+                    inset 0 -4px 12px 0 #940808; // 안쪽 아래쪽 어두운 그림자(볼록 음영)
+            }
+        }
+    }
+
+    .timer {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        font-size: 100px;
+        color: #ffffff;
+        pointer-events: none;
+    }
+
+    .btn-start {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 100px;
+        background: #ffe082;
+        color: #1b3c1a;
+        font-size: 20px;
+    }
+}
+
+.btn-stop {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    button {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background: #ff4949;
+        color: #fffbe8;
+        font-size: 27px;
+        font-weight: bold;
+        border: none;
+        position: relative;
+        letter-spacing: 2px;
+        outline: none;
+        text-shadow: 0 3px 8px #0a120a, 0 3px 0 #000;
+        box-shadow:
+            0 8px 24px rgba(255, 60, 60, 0.35), // 기존 그림자 (붉은 외곽)
+            0 2px 8px #430000, // 기존 그림자 (진한 붉은 외곽)
+            0 4px 0 0 #ce3131, // 아래쪽 밝은 붉은 그림자 (볼록한 느낌)
+            0 10px 20px 0 rgba(230, 50, 50, 0.40), // 버튼 하단 멀리 번지는 붉은 그림자
+            inset 0 3px 8px 0 #fff5e2, // 안쪽 위쪽 밝은 그림자(빛 반사)
+            inset 0 -4px 12px 0 #940808; // 안쪽 아래쪽 어두운 그림자(볼록 음영)
+    }
+}

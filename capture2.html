@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <title>오늘의 단어 7개</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Optima:400,700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/webfontworld/naver/NanumSquare.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700,900&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="thumbnail-wrap">
+        <div class="thumbnail-inner">
+            <div class="thumb-title-bx">
+                <div class="thumb-title tt">
+                    <span>오늘의 단어</span>도 익숙한데,
+                </div>
+            </div>
+            <div class="thumb-word-list">
+                <ul>
+                    <li class="thumb-word"></li>
+                    <li class="thumb-word"></li>
+                    <li class="thumb-word"></li>
+                    <li class="thumb-word"></li>
+                    <li class="thumb-word"></li>
+                    <li class="thumb-word"></li>
+                    <li class="thumb-word"></li>
+                </ul>
+            </div>
+            <div class="thumb-subtitle tt">
+                <!-- <span>영어 문장</span>은 ?? -->
+                그럼 <span>문장</span> 은??
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./data/20251022.js"></script>
+    <script>
+        $( document ).ready(() => {
+
+            $( ".thumb-word" ).each( ( index, item ) => {
+                let word = list[index].word;
+                if (word && typeof word === "string" && word.length > 0) {
+                    word = word.charAt(0).toUpperCase() + word.slice(1);
+                }
+                $(item).text(word);
+            });
+        })
+    </script>
+</body>
+</html>

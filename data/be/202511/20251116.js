@@ -1,0 +1,22 @@
+const list = [
+   { text: "I get used to /waking up early./", translation: "나는 일찍 일어나는 것에 익숙해졌어." },
+  { text: "I get used to /brushing my teeth./", translation: "나는 이를 닦는 것에 익숙해졌어." },
+  { text: "I get used to /eating vegetables./", translation: "나는 야채 먹는 것에 익숙해졌어." },
+  { text: "I get used to /sleeping alone./", translation: "나는 혼자 자는 것에 익숙해졌어." },
+  { text: "I get used to /playing outside./", translation: "나는 밖에서 노는 것에 익숙해졌어." },
+  { text: "I get used to /sharing toys./", translation: "나는 장난감을 나누는 것에 익숙해졌어." },
+  { text: "I get used to /going to school./", translation: "나는 학교 가는 것에 익숙해졌어." },
+  { text: "I get used to /listening to teacher./", translation: "나는 선생님 말씀을 듣는 것에 익숙해졌어." },
+  { text: "I get used to /wearing shoes./", translation: "나는 신발 신는 것에 익숙해졌어." },
+  { text: "I get used to /helping mom./", translation: "나는 엄마 돕는 것에 익숙해졌어." },
+  { text: "I get used to /riding my bike./", translation: "나는 자전거 타는 것에 익숙해졌어." },
+  { text: "I get used to /reading books./", translation: "나는 책 읽는 것에 익숙해졌어." },
+  { text: "I get used to /washing hands./", translation: "나는 손 씻는 것에 익숙해졌어." },
+  { text: "I get used to /eating breakfast./", translation: "나는 아침 먹는 것에 익숙해졌어." },
+  { text: "I get used to /saying thank you./", translation: "나는 고맙다고 말하는 것에 익숙해졌어." },
+  { text: "I get used to /playing with friends./", translation: "나는 친구들과 노는 것에 익숙해졌어." },
+  { text: "I get used to /going to bed early./", translation: "나는 일찍 자는 것에 익숙해졌어." },
+  { text: "I get used to /eating lunch./", translation: "나는 점심 먹는 것에 익숙해졌어." },
+  { text: "I get used to /washing my face./", translation: "나는 세수하는 것에 익숙해졌어." },
+  { text: "I get used to /going to the park./", translation: "나는 공원 가는 것에 익숙해졌어." }
+];
