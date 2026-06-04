@@ -1,3 +1,5 @@
+/*
+
 1) What / Which / Who 패턴
 What do you think? — 어떻게 생각해?
 What are you doing? — 뭐 하고 있어?
@@ -61,3 +63,5 @@ Is it true? — 그거 사실이야?
 Is it finished? — 끝났어?
 Should I go? — 가야 해?
 Are you ready? — 준비됐어?
+
+*/
