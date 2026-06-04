@@ -34,11 +34,11 @@ Could you explain it? — 설명해줄 수 있어?
 Could you wait a moment? — 잠깐 기다려줄 수 있어?
 Would you like some  — 커피 마실래?
 Would you help me? — 도와줄래?
-Would you go there? — 거기 갈래?
+Would you go ? — 거기 갈래?
 
   
 4) When / Where / Why / Which
-When did it happen? — 언제 일어난 거야?
+When did you? — 언제 일어난 거야?
 When are you free? — 언제 시간 있어?
 Where are you? — 어디야?
 Where do you live? — 어디 살아?
