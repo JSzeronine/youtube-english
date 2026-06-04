@@ -1,4 +1,4 @@
-const data023 = [
+const data0023 = [
   {
     en: { me: "Can you repeat the address of the hotel?", you: "Sure, it is 12 Maple Street." },
     ko: { me: "호텔 주소 다시 말해주실 수 있나요?", you: "네, 12 메이플 스트리트입니다." }
