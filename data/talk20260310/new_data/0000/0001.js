@@ -1,4 +1,4 @@
-const data0000 = [
+const data0001 = [
   {
     en: { me: "What do you think about this restaurant?", you: "I think it’s pretty good." },
     ko: { me: "이 식당 어떻게 생각해요?", you: "꽤 괜찮다고 생각해요." }
