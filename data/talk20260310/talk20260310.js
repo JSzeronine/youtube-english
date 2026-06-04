@@ -8,7 +8,6 @@
             });
 
             let c = 0;
-            console.log( datas.length );
             datas.forEach((item, idx) => {
                 const findIndex = datas.findIndex(prev => prev.en.you === item.en.you );
 
@@ -21,6 +20,8 @@
                 console.log( item.en.you, ' ', item.ko.you );
                 console.log( "" );
             });
+
+            console.log( datas.length );
         }
 
         function create(){

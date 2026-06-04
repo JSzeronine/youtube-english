@@ -4325,8 +4325,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 50px;
-  background-color: rgba(255, 255, 255, 0.9);
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
 }
 
 .wrap-new-talk .content .content-bx .txt-container.you-container .en-txt {
@@ -4338,11 +4339,12 @@
 }
 
 .wrap-new-talk .content .content-bx .txt-container .en-txt {
-  font-size: 100px;
-  color: #000000;
+  font-size: 80px;
+  color: #F9C802;
   font-weight: 700;
-  line-height: 1.4;
-  text-shadow: 0 4px 8px #ffffff, 0 4px 0 #ffffff;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
   font-family: 'Montserrat';
   -webkit-transform: scaleY(1.1);
           transform: scaleY(1.1);
@@ -4350,10 +4352,13 @@
 
 .wrap-new-talk .content .content-bx .txt-container .ko-txt {
   font-size: 50px;
-  color: rgba(0, 0, 0, 0.6);
-  font-weight: 700;
+  color: #ffffff;
+  font-weight: 600;
   line-height: 1.0;
-  text-shadow: 0 4px 8px #ffffff, 0 4px 0 #ffffff;
+  text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+  position: absolute;
+  bottom: 40px;
+  left: 55px;
 }
 
 .wrap-new-talk .content .line-bx {
