@@ -32,7 +32,7 @@ Can I ask you something? — 질문해도 돼?
 Can I join you? — 같이 해도 돼?
 Could you explain it? — 설명해줄 수 있어?
 Could you wait a moment? — 잠깐 기다려줄 수 있어?
-Would you like some coffee? — 커피 마실래?
+Would you like some  — 커피 마실래?
 Would you help me? — 도와줄래?
 Would you go there? — 거기 갈래?
 
