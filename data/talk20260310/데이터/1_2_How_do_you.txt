@@ -1,59 +1,55 @@
-기본 생활
-How do you wake up early?
-How do you go to work?
-How do you study English?
-How do you learn new words?
-How do you remember things?
-How do you focus better?
-How do you relax after work?
-How do you spend your weekends?
-How do you start your day?
-How do you finish your homework?
-
-인간관계 / 소통
-How do you make friends?
-How do you talk to strangers?
-How do you keep in touch?
-How do you apologize?
-How do you express feelings?
-How do you deal with conflict?
-How do you comfort someone?
-How do you say no politely?
-How do you start a conversation?
-How do you build trust?
-
-감정 / 멘탈
-How do you stay motivated?
-How do you handle stress?
-How do you calm down?
-How do you deal with anxiety?
-How do you stay positive?
-How do you overcome fear?
-How do you deal with failure?
-How do you stay confident?
-How do you avoid burnout?
-How do you cheer yourself up?
-
+생활 루틴
+How do you wake up early? — 어떻게 일찍 일어나?
+How do you go to sleep on time? — 어떻게 제시간에 잠들어?
+How do you start your morning? — 아침을 어떻게 시작해?
+How do you make your bed? — 침대 어떻게 정리해?
+How do you brush your teeth properly? — 양치 어떻게 제대로 해?
+How do you get ready in the morning? — 아침에 어떻게 준비해?
+How do you take a shower quickly? — 샤워 어떻게 빨리 해?
+How do you eat breakfast? — 아침 어떻게 먹어?
+How do you get dressed? — 옷 어떻게 입어?
+How do you leave the house on time? — 어떻게 제시간에 집 나가?
 공부 / 일
-How do you take notes?
-How do you prepare for exams?
-How do you manage your time?
-How do you plan your day?
-How do you improve skills?
-How do you learn faster?
-How do you solve problems?
-How do you finish tasks quickly?
-How do you stay productive?
-How do you organize work?
-
+How do you study effectively? — 어떻게 효과적으로 공부해?
+How do you concentrate in class? — 수업에서 어떻게 집중해?
+How do you take notes? — 필기 어떻게 해?
+How do you finish homework fast? — 숙제 어떻게 빨리 끝내?
+How do you prepare for exams? — 시험 어떻게 준비해?
+How do you manage your time? — 시간 어떻게 관리해?
+How do you set goals? — 목표 어떻게 세워?
+How do you stay productive? — 어떻게 생산적으로 지내?
+How do you solve problems? — 문제 어떻게 해결해?
+How do you learn new skills? — 새로운 기술 어떻게 배워?
+인간관계
+How do you make friends easily? — 친구 어떻게 쉽게 사귀어?
+How do you talk to strangers? — 모르는 사람과 어떻게 말해?
+How do you start a conversation? — 대화 어떻게 시작해?
+How do you keep in touch with friends? — 친구랑 어떻게 연락 유지해?
+How do you express your feelings? — 감정 어떻게 표현해?
+How do you apologize sincerely? — 진심으로 어떻게 사과해?
+How do you deal with arguments? — 다툼 어떻게 해결해?
+How do you build relationships? — 관계 어떻게 만들어?
+How do you trust someone? — 사람 어떻게 믿어?
+How do you help others? — 다른 사람 어떻게 도와?
+감정 / 자기관리
+How do you stay motivated? — 어떻게 동기 유지해?
+How do you handle stress? — 스트레스 어떻게 관리해?
+How do you calm yourself down? — 어떻게 진정해?
+How do you stay positive? — 어떻게 긍정적으로 지내?
+How do you overcome fear? — 두려움 어떻게 극복해?
+How do you deal with failure? — 실패 어떻게 대처해?
+How do you stay confident? — 어떻게 자신감 유지해?
+How do you avoid burnout? — 번아웃 어떻게 피하?
+How do you cheer yourself up? — 기분 어떻게 좋아지게 해?
+How do you control your emotions? — 감정 어떻게 조절해?
 일상 / 기타
-How do you cook this dish?
-How do you clean your room?
-How do you save money?
-How do you use this app?
-How do you get better sleep?
-How do you lose weight?
-How do you stay healthy?
-How do you fix this?
-How do you travel cheaply?
-How do you enjoy life?
+How do you cook dinner? — 저녁 어떻게 요리해?
+How do you clean your room? — 방 어떻게 청소해?
+How do you do laundry? — 빨래 어떻게 해?
+How do you save money? — 돈 어떻게 아껴?
+How do you use this app? — 이 앱 어떻게 사용해?
+How do you fix your phone? — 핸드폰 어떻게 고쳐?
+How do you travel cheaply? — 여행 어떻게 저렴하게 해?
+How do you get better sleep? — 어떻게 더 잘 자?
+How do you stay healthy? — 어떻게 건강 유지해?
+How do you enjoy life? — 인생 어떻게 즐겨?
