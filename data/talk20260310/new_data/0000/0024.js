@@ -1,4 +1,4 @@
-const data23 = [
+const data0024 = [
   {
     en: { me: "Can I ask you something about the café Wi-Fi?", you: "Yeah, it’s pretty fast." },
     ko: { me: "카페 와이파이에 대해 물어봐도 돼?", you: "응, 꽤 빠른 편이야." }
