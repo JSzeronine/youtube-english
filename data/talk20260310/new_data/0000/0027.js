@@ -1,4 +1,4 @@
-const data27 = [
+const data0027 = [
   {
     en: { me: "Could you wait a moment? I’m paying right now.", you: "Sure, take your time." },
     ko: { me: "잠깐만 기다려줄 수 있어? 지금 결제 중이야.", you: "응, 천천히 해." }
