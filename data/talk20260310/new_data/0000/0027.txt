@@ -1,0 +1,85 @@
+const data27 = [
+  {
+    en: { me: "Could you wait a moment? I’m paying right now.", you: "Sure, take your time." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 지금 결제 중이야.", you: "응, 천천히 해." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m still on the phone.", you: "No problem." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 아직 전화 중이야.", you: "괜찮아." }
+  },
+  {
+    en: { me: "Could you wait a moment? I need to find my wallet.", you: "Okay." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 지갑 좀 찾을게.", you: "응." }
+  },
+  {
+    en: { me: "Could you wait a moment? The server is slow.", you: "Alright." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 서버가 느려.", you: "알겠어." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m finishing this text.", you: "Sure." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 메시지 보내는 중이야.", you: "응." }
+  },
+
+  {
+    en: { me: "Could you wait a moment? I’m talking to someone.", you: "Take your time." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 누군가랑 얘기 중이야.", you: "천천히 해." }
+  },
+  {
+    en: { me: "Could you wait a moment? I forgot my password.", you: "Okay, I’ll wait." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 비밀번호를 잊었어.", you: "응, 기다릴게." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m ordering food.", you: "No rush." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 음식 주문 중이야.", you: "급할 거 없어." }
+  },
+  {
+    en: { me: "Could you wait a moment? I need to check something.", you: "Alright." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 뭐 좀 확인할게.", you: "알겠어." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m almost done.", you: "Hurry up a bit." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 거의 다 끝났어.", you: "좀 빨리 해줘." }
+  },
+
+  {
+    en: { me: "Could you wait a moment? I’m finding my seat.", you: "Sure." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 자리 찾는 중이야.", you: "응." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m late already.", you: "Okay, I’ll wait." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 나 이미 늦었어.", you: "응, 기다릴게." }
+  },
+  {
+    en: { me: "Could you wait a moment? I need to grab my bag.", you: "No problem." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 가방 좀 가져올게.", you: "괜찮아." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m signing something.", you: "Sure." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 서명 중이야.", you: "응." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m checking directions.", you: "Alright." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 길 확인 중이야.", you: "알겠어." }
+  },
+
+  {
+    en: { me: "Could you wait a moment? The elevator is coming.", you: "Okay." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 엘리베이터 오는 중이야.", you: "응." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m finishing class notes.", you: "Sure, I’ll wait outside." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 필기 마무리 중이야.", you: "응, 밖에서 기다릴게." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m buying tickets.", you: "No hurry." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 티켓 사는 중이야.", you: "천천히 해." }
+  },
+  {
+    en: { me: "Could you wait a moment? I need to fix this issue.", you: "Alright." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 이거 좀 고쳐야 해.", you: "알겠어." }
+  },
+  {
+    en: { me: "Could you wait a moment? I’m almost ready to go.", you: "Let’s go then." },
+    ko: { me: "잠깐만 기다려줄 수 있어? 거의 준비 끝났어.", you: "그럼 가자." }
+  }
+];
