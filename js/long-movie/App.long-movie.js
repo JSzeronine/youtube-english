@@ -210,30 +210,56 @@
                                 const enTags = $(".en-txt").find("ul");
                                 const enList = $(".en-list").find("ul").eq(count);
 
-                                const enSound = eData.map((item) => item.en).join(" ");
-                                const koSound = kData.map((item) => item.ko).join(" ");
-
                                 const koTags = $(".ko-txt").find("ul");
                                 const koList = $(".ko-list").find("ul").eq(count);
 
-                                kData.forEach((item, idx) => {
-                                    const koTag = koTags.find('.ko-step-' + item.step);
-                                    const koContainer = koList.find("li").eq(idx);
+                                console.log( koList[0]);
 
-                                    const { left: bxLeft } = $(".inner").offset();
-                                    const { left } = koContainer.offset();
-                                    const { top } = koContainer.position();
+                                const enSound = eData.map((item) => item.en).join(" ");
+                                const koSound = kData.map((item) => item.ko).join(" ");
 
-                                    if (koTag.hasClass("on")) {
-                                        gsap.to(koTag, { x: left - bxLeft, y: top, duration: 0.75, ease: Cubic.easeInOut });
-                                    } else {
-                                        gsap.fromTo(koTag,
-                                            { x: left - bxLeft, y: top + koTag.height(), opacity: 0 },
-                                            { y: top, opacity: 1, duration: 0.75, ease: Cubic.easeInOut, delay: 1 }
-                                        );
-                                    }
 
-                                    koTag.addClass("on");
+                                // kData.forEach((item, idx) => {
+                                //     const koTag = koTags.find('.ko-step-' + item.step);
+                                //     const koContainer = koList.find("li").eq(idx);
+
+                                //     const { left: bxLeft } = $(".inner").offset();
+                                //     const { left } = koContainer.offset();
+                                //     const { top } = koContainer.position();
+
+                                //     if (koTag.hasClass("on")) {
+                                //         gsap.to(koTag, { x: left - bxLeft, y: top, duration: 0.75, ease: Cubic.easeInOut });
+                                //     } else {
+                                //         gsap.fromTo(koTag,
+                                //             { x: left - bxLeft, y: top + koTag.height(), opacity: 0 },
+                                //             { y: top, opacity: 1, duration: 0.75, ease: Cubic.easeInOut, delay: 1 }
+                                //         );
+                                //     }
+
+                                //     koTag.addClass("on");
+                                // });
+
+                                kData.forEach((item, _idx) => {
+
+                                    const koTagList = koTags.find(".ko-step-" + item.step);
+                                    const koContainerList = koList.find(".en-step-" + item.step);
+
+                                    koTagList.each((i, el) => {
+                                        const koTag = $(el);
+                                        const koContainer = $(koContainerList[i]);
+
+                                        const { left: bxLeft } = $(".inner").offset();
+                                        const { left } = koContainer.offset();
+                                        const { top } = koContainer.position();
+
+                                        if (koTag.hasClass("on")) {
+                                            gsap.to(koTag, { x: left - bxLeft, y: top, duration: 0.75, ease: Cubic.easeInOut });
+                                        } else {
+                                            gsap.fromTo(koTag, { x: left - bxLeft, y: top + koTag.height(), opacity: 0 }, { y: top, opacity: 1, duration: 0.75, ease: Cubic.easeInOut, delay: 1 });
+                                        }
+
+                                        koTag.addClass("on");
+                                    });
                                 });
 
                                 App.audio.playTTS({
@@ -291,13 +317,13 @@
                                                         rate: 0.725,
                                                         delay: 1.5,
                                                         playCallback: () => {
-                                                            if (count === Math.min(enAllData.length, koAllData.length) - 1) {
+                                                            if (count === 2) {
                                                                 gsap.to($(".en-txt").find("li"), { color: '#FFD648', duration: 0.5, ease: Cubic.easeOut });
                                                                 gsap.to($(".ko-txt").find("li"), { color: '#FFD648', duration: 0.5, ease: Cubic.easeOut });
                                                             }
                                                         },
                                                         callback: () => {
-                                                            if (count === Math.min(enAllData.length, koAllData.length) - 1) {
+                                                            if (count === 2) {
                                                                 setTimeout(() => {
                                                                     const descTxt = $(".step-desc-txt");
                                                                     gsap.to(descTxt, { opacity: 0, duration: 0.5, ease: Cubic.easeInOut });

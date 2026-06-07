@@ -1,7 +1,7 @@
 
 
 
-const mainC = 5;
+const mainC = 0;
 
 
 (function () {
@@ -165,7 +165,7 @@ const mainC = 5;
                 rate: 0.8,
                 delay: 0.5,
                 callback: () => {
-                    if (count === koAllData.length - 1) {
+                    if (count === 2) {
                         setTimeout(() => {
                             gsap.to($(".en-txt"), { x: -30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
                             gsap.to($(".ko-txt"), { x: 30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
@@ -175,45 +175,6 @@ const mainC = 5;
                                 { opacity: 0, x: 30, duration: 0.5, ease: Cubic.easeOut });
 
                         }, 1000);
-
-                        // App.audio.playTTS({
-                        //     text: koSound,
-                        //     code: 3,
-                        //     rate: 1,
-                        //     delay: 0.5,
-                        //     callback: () => {
-                        //         App.audio.playTTS({
-                        //             text: enSound,
-                        //             code: 5,
-                        //             rate: 0.8,
-                        //             delay: 0.5,
-                        //             playCallback: () => {
-                        //                 gsap.to($(".en-txt").find("li"), { color: '#ffffff', duration: 0.5, ease: Cubic.easeOut });
-                        //                 gsap.to($(".ko-txt").find("li"), { color: '#ffffff', duration: 0.5, ease: Cubic.easeOut });
-                        //             },
-                        //             callback: () => {
-                        //                 App.audio.playTTS({
-                        //                     text: enSound,
-                        //                     code: 4,
-                        //                     rate: 0.8,
-                        //                     delay: 0.5,
-                        //                     callback: () => {
-                        //                         setTimeout(() => {
-                        //                             gsap.to($(".en-txt"), { x: -30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
-                        //                             gsap.to($(".ko-txt"), { x: 30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
-
-                        //                             gsap.fromTo($(".text-bx"),
-                        //                                 { opacity: 1, x: 0 },
-                        //                                 { opacity: 0, x: 30, duration: 0.5, ease: Cubic.easeOut });
-
-                        //                         }, 1000);
-                        //                     }
-                        //                 });
-                        //             },
-                        //         });
-                        //     }
-                        // });
-
                         return;
                     }
 
@@ -254,48 +215,57 @@ const mainC = 5;
                 });
             });
 
-            // eData.forEach((item, idx) => {
-            //     const enTag = enTags.eq(idx);
-            //     const enContainer = enList.find("li").eq(idx);
+            const koTags2 = $(".ko-txt").find("ul");
+            const koList2 = $(".ko-list").find("ul").eq(count);
+
+            kData.forEach((item, _idx) => {
+
+                const koTagList = koTags2.find(".ko-step-" + item.step);
+                const koContainerList = koList2.find(".en-step-" + item.step);
+
+                koTagList.each((i, el) => {
+                    const koTag = $(el);
+                    const koContainer = $(koContainerList[i]);
+
+                    const { left: bxLeft } = $(".inner").offset();
+                    const { left } = koContainer.offset();
+                    const { top } = koContainer.position();
+
+                    if (koTag.hasClass("on")) {
+                        gsap.to(koTag, { x: left - bxLeft, y: top, duration: 0.5, ease: Cubic.easeInOut });
+                    } else {
+                        gsap.fromTo(koTag,
+                            { x: left - bxLeft, y: top + koTag.height(), opacity: 0 },
+                            { y: top, opacity: 1, duration: 0.5, ease: Cubic.easeInOut, delay: 0.5 }
+                        );
+                    }
+
+                    koTag.addClass("on");
+                });
+            });
+
+            // const koTags = $(".ko-txt").find("ul");
+            // const koList = $(".ko-list").find("ul").eq(count);
+
+            // kData.forEach((item, idx) => {
+            //     const koTag = koTags.find('.ko-step-' + item.step);
+            //     const koContainer = koList.find("li").eq(idx);
 
             //     const { left: bxLeft } = $(".inner").offset();
-            //     const { left } = enContainer.offset();
-            //     const { top } = enContainer.position();
+            //     const { left } = koContainer.offset();
+            //     const { top } = koContainer.position();
 
-            //     if (enTag.hasClass("on")) {
-            //         gsap.to(enTag, { x: left - bxLeft, y: top, duration: 0.5, ease: Cubic.easeInOut });
+            //     if (koTag.hasClass("on")) {
+            //         gsap.to(koTag, { x: left - bxLeft, y: top, duration: 0.5, ease: Cubic.easeInOut });
             //     } else {
-            //         gsap.fromTo(enTag,
-            //             { x: left - bxLeft, y: top + enTag.height(), opacity: 0 },
+            //         gsap.fromTo(koTag,
+            //             { x: left - bxLeft, y: top + koTag.height(), opacity: 0 },
             //             { y: top, opacity: 1, duration: 0.5, ease: Cubic.easeInOut, delay: 0.5 }
             //         );
             //     }
 
-            //     enTag.addClass("on");
+            //     koTag.addClass("on");
             // });
-
-            const koTags = $(".ko-txt").find("ul");
-            const koList = $(".ko-list").find("ul").eq(count);
-
-            kData.forEach((item, idx) => {
-                const koTag = koTags.find('.ko-step-' + item.step);
-                const koContainer = koList.find("li").eq(idx);
-
-                const { left: bxLeft } = $(".inner").offset();
-                const { left } = koContainer.offset();
-                const { top } = koContainer.position();
-
-                if (koTag.hasClass("on")) {
-                    gsap.to(koTag, { x: left - bxLeft, y: top, duration: 0.5, ease: Cubic.easeInOut });
-                } else {
-                    gsap.fromTo(koTag,
-                        { x: left - bxLeft, y: top + koTag.height(), opacity: 0 },
-                        { y: top, opacity: 1, duration: 0.5, ease: Cubic.easeInOut, delay: 0.5 }
-                    );
-                }
-
-                koTag.addClass("on");
-            });
         }
 
         return {

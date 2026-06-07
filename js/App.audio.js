@@ -6,7 +6,17 @@
     const audio = function () {
 
         const voiceCode = [
-            "ko-KR-Wavenet-A", //0
+            // "ko-KR-Chirp3-HD-Achernar",
+            "ko-KR-Chirp3-HD-Aoede",
+            // "ko-KR-Chirp3-HD-Aoede",
+            // "ko-KR-Chirp3-HD-Leda",
+            // "ko-KR-Chirp3-HD-Vindemiatrix",
+            // "ko-KR-Standard-B",
+            // "ko-KR-Wavenet-A", //0
+
+
+
+
             "ko-KR-Wavenet-B", //1
             "ko-KR-Wavenet-C", //2
             "ko-KR-Wavenet-D", //3
@@ -23,9 +33,31 @@
             "en-US-Chirp3-HD-Charon", // 11
             "en-US-Chirp3-HD-Rasalgethi", // 12
 
-
             'en-US-News-K', // 13
+            'ko-KR-Chirp3-HD-Achernar', // 14
+
+            'en-US-Neural2-G',
         ];
+
+        const languageCode = [
+            "ko-KR",
+            "ko-KR",
+            "ko-KR",
+            "ko-KR",
+
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+            "en-US",
+        ]
 
         function Init() {
         }
@@ -35,13 +67,14 @@
 
             const audio = new Audio();
             const voice = voiceCode[code];
+            const language = languageCode[code];
             
             const response = await fetch("https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyAuweZt1PSe-Gv5vwVn6ibRLQ9L25kIM3g", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     input: { text },
-                    voice: { languageCode: "en-US", name: voice },
+                    voice: { languageCode: language, name: voice },
                     audioConfig: {
                         audioEncoding: "MP3",
                         speakingRate: rate,

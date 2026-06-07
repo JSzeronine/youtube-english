@@ -7,13 +7,16 @@
                 create();
             });
 
+            setTimeout(() => {
+                create();
+            }, 1000 );
+
             let c = 0;
             datas.forEach((item, idx) => {
                 const findIndex = datas.findIndex(prev => prev.en.you === item.en.you );
 
                 if( idx !== findIndex ){
                     c++;
-                    console.log( item.en.me );
                 }
 
                 console.log( item.en.me, ' ', item.ko.me );
@@ -25,24 +28,32 @@
         }
 
         function create(){
-            let count = parseInt( '' + Math.random() * datas.length );
-            let countValue = 0;
+            // let count = parseInt( '' + Math.random() * datas.length );
+            let count = 10;
             function show() {
-                countValue++;
-                console.log( countValue );
+                $( ".progress-bar" ).find( "li" ).each(function(idx){
+                    if( count === idx ){
+                        $( this ).addClass( "on target" );
+                    }else if( idx < count ){
+                        $( this ).removeClass( "target" ).addClass( "on" );
+                    }else{
+                        $( this ).removeClass( "on target" );
+                    }
+                });
+
                 const data = datas[count];
         
                 const meEn = $(".me-container").find(".en-txt");
                 const meEnT = data.en.me;
         
                 const meKo = $(".me-container").find(".ko-txt");
-                const meKoT = data.ko.me;
+                const meKoT = '- ' + data.ko.me;
         
                 const youEn = $(".you-container").find(".en-txt");
                 const youEnT = data.en.you;
         
                 const youKo = $(".you-container").find(".ko-txt");
-                const youKoT = data.ko.you;
+                const youKoT = '- ' + data.ko.you;
         
                 function showText(tag, txt, posX = -30) {
                     gsap.fromTo( tag, 
@@ -61,56 +72,92 @@
                 
                 function showSound(type){
                     App.audio.playTTS({
-                        text: meEnT,
-                        code: 7,
-                        rate: 0.65,
+                        text: meKoT,
+                        code: 0,
+                        rate: 0.9,
                         playCallback: () => {
-                            if( type === 2 ){
-                                showText( meKo, meKoT, -30 );
-                                return;
-                            }
-
-                            showText(meEn, meEnT, -30);   
+                            showText( meKo, meKoT, -30 );
                         },
-    
+                        
                         callback: () => {
                             App.audio.playTTS({
-                                text: youEnT,
-                                code: 6,
+                                text: meEnT,
+                                code: 7,
                                 rate: 0.65,
-                                delay: 0.35,
+                                delay: 1,
                                 playCallback: () => {
-                                    if( type === 2 ){
-                                        showText( youKo, youKoT, 30);
-                                        return;
-                                    }
-
-                                    showText(youEn, youEnT, 30);
+                                    showText(meEn, meEnT, -30);
                                 },
-
                                 callback: () => {
-    
-                                    setTimeout(() => {
-                                        if( type === 1 ){
-                                            showSound(2);
-                                            return;
-                                        }
+                                    App.audio.playTTS({
+                                        text: meEnT,
+                                        code: 15,
+                                        rate: 0.65,
+                                        delay: 1,
+                                        callback: () => {
+                                            App.audio.playTTS({
+                                                text: youKoT,
+                                                code: 3,
+                                                rate: 0.85,
+                                                delay: 1,
+                                                playCallback: () => {
+                                                    showText( youKo, youKoT, 30);
+                                                },
+                                                callback: () => {
+                                                    App.audio.playTTS({
+                                                        text: youEnT,
+                                                        code: 6,
+                                                        rate: 0.65,
+                                                        delay: 1,
+                                                        playCallback: () => {
+                                                            showText(youEn, youEnT, 30);
+                                                        },
+                                                        callback: () => {
 
-                                        hideText(meEn, 30);
-                                        hideText(youEn, -30);
-                                        hideText(meKo, 30);
-                                        hideText(youKo, -30);
-    
-                                        setTimeout(() => {
-                                            count = parseInt( '' + Math.random() * datas.length );
-                                            show();
-                                        }, 1000 * 0.1 );
-    
-                                    }, type === 2 ? 1000 * 1.2 : 1000 * 0.35 );
+                                                            App.audio.playTTS({
+                                                                text: youEnT,
+                                                                code: 5,
+                                                                rate: 0.65,
+                                                                delay: 1,
+                                                                callback: () => {
+                                    
+                                                                    setTimeout(() => {
+                                                                        // if( type === 1 ){
+                                                                        //     showSound(2);
+                                                                        //     return;
+                                                                        // }
+                                
+                                                                        hideText(meEn, 30);
+                                                                        hideText(youEn, -30);
+                                                                        hideText(meKo, 30);
+                                                                        hideText(youKo, -30);
+                                    
+                                                                        setTimeout(() => {
+                                                                            // count = parseInt( '' + Math.random() * datas.length );
+                                                                            count += 1;
+                                                                            if( count > datas.length - 1 ){
+                                                                                console.log( "끝" );
+                                                                                return;
+                                                                            }
+                
+                                                                            show();
+                                                                        }, 1000 * 0.1 );
+                                    
+                                                                    }, type === 2 ? 1000 * 1.2 : 1000 * 1.2 );
+                                                                }
+                                                            });
+                                                        }
+                                                    });
+                                                }
+                                            });
+                                        }
+                                    });
                                 }
                             });
                         }
                     });
+
+                    
                 }
 
                 showSound(1);
