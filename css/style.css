@@ -4326,6 +4326,67 @@
           animation: blinkOpacity 1.5s infinite;
 }
 
+.wrap-new-talk .content .intro-bx {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+
+.wrap-new-talk .content .intro-bx .intro-desc {
+  font-size: 55px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.0;
+  text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.wrap-new-talk .content .intro-bx .intro-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  gap: 20px;
+  font-size: 100px;
+  color: #F9C802;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 3px;
+  text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+  font-family: "BMDOHYEON_ttf";
+  opacity: 0;
+}
+
+.wrap-new-talk .content .intro-bx .intro-title span {
+  color: #ffffff;
+  font-size: 50px;
+  position: relative;
+  top: 6px;
+}
+
 .wrap-new-talk .content .content-bx {
   width: 100%;
   display: -webkit-box;

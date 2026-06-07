@@ -51,6 +51,52 @@
                 list-style: none;
             }
         }
+
+        .intro-bx{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba( 0, 0, 0, 0.8 );
+            z-index: 100;
+            flex-direction: column;
+            gap: 50px;
+            .intro-desc{
+                font-size: 55px;
+                color: #ffffff;
+                font-weight: 600;
+                line-height: 1.0;
+                text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                text-align: center;
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            .intro-title{
+                display: flex;
+                align-items: top;
+                gap: 20px;
+                font-size: 100px;
+                color: #F9C802;
+                font-weight: 700;
+                line-height: 1.4;
+                letter-spacing: 3px;
+                text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
+                font-family: "BMDOHYEON_ttf";
+                opacity: 0;
+                span{
+                    color: #ffffff;
+                    font-size: 50px;
+                    position: relative;
+                    top: 6px;
+                }
+            }
+        }
+
         .content-bx{
             width: 100%;
             display: flex;

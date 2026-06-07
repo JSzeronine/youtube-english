@@ -3,13 +3,27 @@
 (function () {
     const talk20260310 = function () {
         function Init() {
-            $( "body" ).on( "click", () =>{
-                create();
-            });
 
             setTimeout(() => {
-                create();
-            }, 1000 );
+                gsap.to( $( ".intro-desc" ), { opacity: 1, y: 0, duration: 1, ease: Cubic.easeInOut, onComplete: () => {
+                    gsap.to( $( ".intro-title" ), { opacity: 1, duration: 1, ease: Cubic.easeInOut });
+                }});
+
+                setTimeout(() => {
+                    start();
+                }, 4000 );
+            }, 2000 );
+
+            $( "body" ).on( "click", () => {
+
+                gsap.to( $( ".intro-desc" ), { opacity: 1, y: 0, duration: 1, ease: Cubic.easeInOut, onComplete: () => {
+                    gsap.to( $( ".intro-title" ), { opacity: 1, duration: 1, ease: Cubic.easeInOut });
+                }});
+
+                setTimeout(() => {
+                    start();
+                }, 4000 );
+            });
 
             let c = 0;
             datas.forEach((item, idx) => {
@@ -19,17 +33,24 @@
                     c++;
                 }
 
-                console.log( item.en.me, ' ', item.ko.me );
-                console.log( item.en.you, ' ', item.ko.you );
-                console.log( "" );
+                // console.log( item.en.me, ' ', item.ko.me );
+                // console.log( item.en.you, ' ', item.ko.you );
+                // console.log( "" );
             });
 
-            console.log( datas.length );
+            // console.log( datas.length );
+        }
+
+        function start(){
+            gsap.to( $( ".intro-bx" ), { duration: 1, opacity: 0, ease: Cubic.easeOut });
+            setTimeout(() => {
+                create();
+            }, 500 );
         }
 
         function create(){
             // let count = parseInt( '' + Math.random() * datas.length );
-            let count = 10;
+            let count = 0;
             function show() {
                 $( ".progress-bar" ).find( "li" ).each(function(idx){
                     if( count === idx ){
@@ -68,7 +89,6 @@
                         { opacity: 1, x: 0 }, 
                         { opacity: 0, x: posX, duration: 0.3, ease: Cubic.easeOut });
                 }
-
                 
                 function showSound(type){
                     App.audio.playTTS({

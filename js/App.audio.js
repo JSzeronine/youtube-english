@@ -7,7 +7,8 @@
 
         const voiceCode = [
             // "ko-KR-Chirp3-HD-Achernar",
-            "ko-KR-Chirp3-HD-Aoede",
+            // "ko-KR-Chirp3-HD-Aoede",
+            "ko-KR-Chirp3-HD-Leda",
             // "ko-KR-Chirp3-HD-Aoede",
             // "ko-KR-Chirp3-HD-Leda",
             // "ko-KR-Chirp3-HD-Vindemiatrix",
@@ -68,7 +69,7 @@
             const audio = new Audio();
             const voice = voiceCode[code];
             const language = languageCode[code];
-            
+
             const response = await fetch("https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyAuweZt1PSe-Gv5vwVn6ibRLQ9L25kIM3g", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -82,7 +83,6 @@
                     }
                 }),
             });
-
 
             const data = await response.json();
             const audioContent = data.audioContent;
