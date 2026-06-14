@@ -300,8 +300,14 @@
                                                 rate: 0.675,
                                                 delay: 1.5,
                                                 callback: () => {
+                                                    let max = 0;
+                                                    enAllData.forEach((item) => {
+                                                        max = Math.max( max, item.step );
+                                                    });
 
-                                                    if( count === 0 || count === 1 ){
+                                                    console.log( max );
+
+                                                    if( count < max ){
                                                         count++;
 
                                                         setTimeout(() => {
@@ -317,13 +323,13 @@
                                                         rate: 0.725,
                                                         delay: 1.5,
                                                         playCallback: () => {
-                                                            if (count === 2) {
+                                                            if (count === max) {
                                                                 gsap.to($(".en-txt").find("li"), { color: '#FFD648', duration: 0.5, ease: Cubic.easeOut });
                                                                 gsap.to($(".ko-txt").find("li"), { color: '#FFD648', duration: 0.5, ease: Cubic.easeOut });
                                                             }
                                                         },
                                                         callback: () => {
-                                                            if (count === 2) {
+                                                            if (count === max) {
                                                                 setTimeout(() => {
                                                                     const descTxt = $(".step-desc-txt");
                                                                     gsap.to(descTxt, { opacity: 0, duration: 0.5, ease: Cubic.easeInOut });

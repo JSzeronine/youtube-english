@@ -2194,7 +2194,7 @@
           transform: translateX(-50%);
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 700px;
+  width: 600px;
 }
 
 .talk-new .inner .bx .en-bx .en-list ul li {
@@ -3579,11 +3579,15 @@
   line-height: 1.2;
 }
 
-.long-movie .intro-bx .intro-inner .intro-1 span {
+.long-movie .intro-bx .intro-inner .intro-1 > span {
   display: inline-block;
   position: relative;
   font-size: 170px;
   color: #16F5EF;
+}
+
+.long-movie .intro-bx .intro-inner .intro-1 > span > span {
+  color: #FFD648;
 }
 
 .long-movie .intro-bx .intro-inner .intro-2 {
@@ -4285,7 +4289,7 @@
 
 @-webkit-keyframes blinkOpacity {
   0% {
-    opacity: 0.2;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -4297,7 +4301,7 @@
 
 @keyframes blinkOpacity {
   0% {
-    opacity: 0.2;
+    opacity: 0;
   }
   50% {
     opacity: 1;
@@ -4315,13 +4319,13 @@
 }
 
 .wrap-new-talk .content .progress-bar li.on {
-  background-color: #F9C802;
+  background-color: #ffffff;
   border-right: 1px solid rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
 
 .wrap-new-talk .content .progress-bar li.target {
-  background-color: #F9C802;
+  background-color: #ffffff;
   -webkit-animation: blinkOpacity 1.5s infinite;
           animation: blinkOpacity 1.5s infinite;
 }
@@ -4453,6 +4457,7 @@
 
 .wrap-new-talk .content .content-bx .txt-container.you-container .en-txt {
   text-align: left;
+  color: #16F5EF;
 }
 
 .wrap-new-talk .content .content-bx .txt-container.you-container .ko-txt {
@@ -4464,7 +4469,7 @@
   color: #F9C802;
   font-weight: 700;
   line-height: 1.4;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
   font-family: "BMDOHYEON_ttf";
 }

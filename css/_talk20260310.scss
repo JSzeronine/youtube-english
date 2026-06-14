@@ -26,20 +26,20 @@
             z-index: 10;
             border: 1px solid rgba( 0, 0, 0, 0.5 );
             @keyframes blinkOpacity {
-                0% { opacity: 0.2; }
+                0% { opacity: 0; }
                 50% { opacity: 1; }
                 100% { opacity: 0.2; }
             }
             li{
                 &.on{
-                    background-color: #F9C802;
+                    background-color: #ffffff;
                     border-right: 1px solid rgba( 0, 0, 0, 0.5 );
                     // border-right: none;
                     opacity: 1;
                 }
 
                 &.target{
-                    background-color: #F9C802;
+                    background-color: #ffffff;
                     animation: blinkOpacity 1.5s infinite;
                 }
 
@@ -149,6 +149,7 @@
                 &.you-container{
                     .en-txt{
                         text-align: left;
+                        color: #16F5EF;
                     }
 
                     .ko-txt{
@@ -163,7 +164,7 @@
                     // color: #ffffff;;
                     font-weight: 700;
                     line-height: 1.4;
-                    letter-spacing: 3px;
+                    letter-spacing: 5px;
                     text-shadow: 0 4px 8px #0a120a, 0 4px 0 #000;
                     // text-shadow: 0 4px 8px #ffffff, 0 4px 0 #ffffff;
                     font-family: "BMDOHYEON_ttf";

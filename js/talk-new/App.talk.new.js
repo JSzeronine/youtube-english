@@ -165,7 +165,8 @@ const mainC = 1;
                 rate: 0.8,
                 delay: 0.5,
                 callback: () => {
-                    if (count === 2) {
+                    if (count === enAllData.length - 2 )
+                    {
                         setTimeout(() => {
                             gsap.to($(".en-txt"), { x: -30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
                             gsap.to($(".ko-txt"), { x: 30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
