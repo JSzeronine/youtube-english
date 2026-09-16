@@ -133,15 +133,17 @@ const enDatas = [
 
     // 9
     [
-        { en: "She took a few steps", step: 0 },
-        { en: "toward the stage", step: 1 },
+        { en: "She took", step: 0 },
+        { en: "a few steps", step: 1 },
+        { en: "toward the stage", step: 2 },
         { en: ".", step: 0 },
     ],
 
     // 10
     [
         { en: "I'm walking", step: 0 },
-        { en: "toward the station", step: 1 },
+        { en: "toward", step: 1 },
+        { en: "the station", step: 2 },
         { en: ".", step: 0 },
     ],
 
@@ -285,14 +287,16 @@ const koDatas = [
     // 9
     [
         { ko: "그녀는", step: 0 },
-        { ko: "무대를 향해", step: 1 },
-        { ko: "몇 걸음 다가갔어요.", step: 0 },
+        { ko: "무대를 향해", step: 2 },
+        { ko: "몇 걸음", step: 1 },
+        { ko: "다가갔어요.", step: 0 },
     ],
 
     // 10
     [
         { ko: "나는", step: 0 },
-        { ko: "역을 향해", step: 1 },
+        { ko: "역을", step: 2 },
+        { ko: "향해", step: 1 },
         { ko: "걸어가고 있어요.", step: 0 },
     ],
 

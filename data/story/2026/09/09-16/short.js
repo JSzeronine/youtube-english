@@ -18,16 +18,16 @@ const enStorys = [
     // 2
     {
         en: [
-            { txt: 'Suddenly, she saw', step: 0 },
-            { txt: 'a tiny light', step: 1 },
+            { txt: 'Suddenly,', step: 0 },
+            { txt: 'she saw a tiny light', step: 1 },
             { txt: 'behind the vegetables.', step: 2 },
         ],
 
         ko: [
-            { txt: '그 순간, 미나는', step: 0 },
+            { txt: '그 순간,', step: 0 },
+            { txt: '미나는', step: 1 },
             { txt: '채소 뒤에서', step: 2 },
-            { txt: '작은 불빛을', step: 1 },
-            { txt: '보았습니다.', step: 0 },
+            { txt: '작은 불빛을 보았습니다.', step: 1 },
         ]
     },
 
