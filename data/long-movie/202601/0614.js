@@ -153,27 +153,31 @@ const koDatas = [
     [
         { ko: "커피를", step: 2 },
         { ko: "얼마나 자주", step: 0 },
-        { ko: "마셔요?", step: 1 },
+        { ko: "마셔요", step: 1 },
+        { ko: "?", step: 0 },
     ],
 
     [
         { ko: "건강을 위해", step: 3 },
         { ko: "헬스장에", step: 2 },
         { ko: "얼마나 자주", step: 0 },
-        { ko: "가요?", step: 1 },
+        { ko: "가요", step: 1 },
+        { ko: "?", step: 0 },
     ],
 
     [
         { ko: "업무를 위해", step: 3 },
         { ko: "영어를", step: 2 },
         { ko: "얼마나 자주", step: 0 },
-        { ko: "공부해요?", step: 1 },
+        { ko: "공부해요", step: 1 },
+        { ko: "?", step: 0 },
     ],
 
     [
         { ko: "넷플릭스를", step: 2 },
         { ko: "얼마나 자주", step: 0 },
-        { ko: "봐요?", step: 1 },
+        { ko: "봐요", step: 1 },
+        { ko: "?", step: 0 },
     ],
 
     [

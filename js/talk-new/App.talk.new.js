@@ -1,7 +1,9 @@
 
 
 
-const mainC = 1;
+
+const mainC = 7;
+const lastNum = 2;
 
 
 (function () {
@@ -157,15 +159,13 @@ const mainC = 1;
             const enSound = eData.map((item) => item.en).join(" ");
             const koSound = kData.map((item) => item.ko).join(" ");
 
-            console.log("START", enSound, count);
-
             App.audio.playTTS({
                 text: enSound,
                 code: 7,
                 rate: 0.8,
                 delay: 0.5,
                 callback: () => {
-                    if (count === enAllData.length - 2 )
+                    if (count === enAllData.length - lastNum )
                     {
                         setTimeout(() => {
                             gsap.to($(".en-txt"), { x: -30, opacity: 0, duration: 0.5, ease: Cubic.easeOut });
@@ -280,3 +280,9 @@ const mainC = 1;
     });
 
 })();
+
+
+
+
+
+

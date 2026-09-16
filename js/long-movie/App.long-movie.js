@@ -2,6 +2,7 @@
 (function () {
     const index = function () {
 
+        let isClick = false;
         koDatas.forEach((item, idx) => {
             let koTxt = "";
             item.forEach((item) => {
@@ -13,8 +14,9 @@
                 enTxt += item.en + " ";
             });
 
-            console.log(idx + 1 + '. ' + enTxt);
-            console.log(idx + 1 + '. ' + koTxt);
+            // console.log( idx + 1 );
+            console.log(enTxt);
+            console.log(koTxt);
             console.log("")
         });
 
@@ -44,6 +46,7 @@
             // });
 
             $("body").on("click", () => {
+                isClick = true;
                 show();
             });
 
@@ -56,6 +59,7 @@
                     $(".timer").css("display", "none");
 
                     setTimeout(() => {
+                        if( isClick ) return;
                         show();
                     }, 1000);
                 }
@@ -213,8 +217,6 @@
                                 const koTags = $(".ko-txt").find("ul");
                                 const koList = $(".ko-list").find("ul").eq(count);
 
-                                console.log( koList[0]);
-
                                 const enSound = eData.map((item) => item.en).join(" ");
                                 const koSound = kData.map((item) => item.ko).join(" ");
 
@@ -319,7 +321,7 @@
 
                                                     App.audio.playTTS({
                                                         text: enSound,
-                                                        code: 5,
+                                                        code: 4,
                                                         rate: 0.725,
                                                         delay: 1.5,
                                                         playCallback: () => {
