@@ -45,16 +45,23 @@
 
         function start() {
             App.audio.playTTS({
-                text: "스텝 투, 한 문장씩 영어 어순 이해하기",
-                code: 3,
-                rate: 1,
+                text: "Step Two",
+                code: 7,
+                rate: 0.8,
                 playCallback: () => {
-
+                    App.control.showStep(1);
                 },
                 callback: () => {
-                    gsap.to($(".study-room-step-bx"), {
-                        delay: 1, opacity: 0, duration: 1, ease: Cubic.easeOut, onComplete: () => {
-                            all();
+                    App.audio.playTTS({
+                        text: "한 문장씩 이해하기",
+                        code: 28,
+                        rate: 0.95,
+                        callback: () => {
+                            gsap.to($(".study-room-step-bx"), {
+                                delay: 1, opacity: 0, duration: 1, ease: Cubic.easeOut, onComplete: () => {
+                                    all();
+                                }
+                            });
                         }
                     });
                 }
@@ -88,8 +95,8 @@
             $(".count-value").text(count + 1);
             $(".count-bx").css("opacity", 1);
 
-            const ul = studyBx.find("ul");
-            const bx = studyBx.find("li");
+            const ul = studyBx.find(".study-list-bx");
+            const bx = ul.find("li");
 
             const en = storyList.en;
             const ko = storyList.ko;
@@ -114,13 +121,13 @@
 
             App.audio.playTTS({
                 text: enTxt,
-                code: 5,
+                code: 7,
                 rate: 0.85,
                 delay: 0.5,
                 callback: () => {
                     App.audio.playTTS({
                         text: enTxt,
-                        code: 7,
+                        code: 5,
                         rate: 0.725,
                         delay: 1.5,
                         callback: () => {
@@ -148,10 +155,10 @@
 
         function show() {
             const storyList = enStorys[count];
-            const bx = studyBx.find("li");
+            const bx = studyBx.find(".study-list-bx").find("li");
 
             gsap.to(bx.eq(count).find('span'), {
-                duration: 0.5, opacity: 0.4, ease: Cubic.easeOut, onComplete: () => {
+                duration: 0.5, opacity: 0.35, ease: Cubic.easeOut, onComplete: () => {
                     let m = 0;
 
                     function showSound() {
@@ -163,10 +170,13 @@
 
                         App.audio.playTTS({
                             text: en.txt,
-                            code: 5,
+                            code: 7,
                             rate: 0.75,
                             delay: 0,
                             playCallback: () => {
+                                // gsap.to(bx.eq(count).find(".en-list").find('span'), { duration: 0.5, color: '#fcf4df', ease: Cubic.easeOut });
+                                // gsap.to(bx.eq(count).find(".ko-list").find('span'), { duration: 0.5, color: '#FFFFFF', ease: Cubic.easeOut });
+
                                 gsap.to(koTag, { duration: 0.5, y: 0, color: color[m], opacity: 1, ease: Cubic.easeOut });
                                 gsap.to(enTag, { duration: 0.5, y: 0, color: color[m], opacity: 1, ease: Cubic.easeOut });
                             },
@@ -174,7 +184,7 @@
                             callback: () => {
                                 App.audio.playTTS({
                                     text: en.txt,
-                                    code: 7,
+                                    code: 5,
                                     rate: 0.7,
                                     delay: 1,
                                     callback: () => {
@@ -187,13 +197,13 @@
 
                                             App.audio.playTTS({
                                                 text: enTxt,
-                                                code: 5,
+                                                code: 7,
                                                 rate: 0.85,
                                                 delay: 1,
                                                 callback: () => {
                                                     App.audio.playTTS({
                                                         text: enTxt,
-                                                        code: 7,
+                                                        code: 5,
                                                         rate: 0.8,
                                                         delay: 1,
 
@@ -203,7 +213,7 @@
                                                             gsap.to(bx.eq(count).find(".en-list").find('span'), { duration: 0.5, color: '#fcf4df', ease: Cubic.easeOut });
                                                             gsap.to(bx.eq(count).find(".ko-list").find('span'), { duration: 0.5, color: '#FFFFFF', ease: Cubic.easeOut });
 
-                                                            bx.eq(count).find(".ko-list").find(".ko-txt").css("border-color", "transparent");
+                                                            // bx.eq(count).find(".ko-list").find(".ko-txt").css("border-color", "transparent");
 
                                                             gsap.to($(".title"), { duration: 0.5, opacity: 0, ease: Cubic.easeOut });
                                                         },
@@ -213,6 +223,11 @@
                                                             setTimeout(() => {
                                                                 m = 0;
                                                                 count++;
+
+                                                                if (count > enStorys.length - 1) {
+                                                                    App.control.startFinish();
+                                                                    return;
+                                                                }
 
                                                                 all();
                                                             }, 3000);
@@ -231,9 +246,6 @@
                                 });
                             }
                         });
-
-
-
                     }
 
                     showSound();

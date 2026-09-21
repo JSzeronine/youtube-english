@@ -27,21 +27,17 @@
         const color = ['#FFD648', '#7BFFE4', '#FF5D09', '#7FFED5'];
         const imgs = [
             0,
-            1,
             3,
-            5,
-            9,
             11,
-            13,
-            16,
-            17,
-            19,
+            20,
+            24
         ];
         const App = {};
     </script>
 </head>
 
 <body>
+    <audio src="./data/story/2026/rainy_day_sad_piano_20sec.mp3"></audio>
     <div class="story-english">
         <div class="inner">
             <div class="timer">
@@ -56,67 +52,97 @@
                 "#F01A32",
                 "#8D84D3", 
 
-                #53A3FE
-                #7BFFE4
-                #FF6CEA
-                #FFE54A
-                #FD5859
-                #FF5D12
-                #7FFED5
+                "#F7F9B4',
+                "#F9BDFA',
+                "#B4F6F4',
+                "#F8E8E2',
+
             -->
 
-            <div class="thumbnail" style="border: 10px solid #F01A32">
-                <div class="thumbnail-txt">
-                    <dl>
-                        <dt>왕초보 작은 이야기</dt>
-                        <!-- <dt>영어 못해도 읽을 수 있어요!</dt> -->
-                        <!-- <dt>왕초보 짧은 영어 이야기</dt> -->
-                        <dd>Slow English</dd>
-                    </dl>
-                </div>
+            <script>
+                $(document).ready(() => {
+                    const thumbnailColor = "#8D84D3";
+                    $(".thumbnail-wrap").css("background-color", thumbnailColor);
+                    $(".thumbnail").css("border-color", thumbnailColor);
+                });
+            </script>
+            <div class="thumbnail-wrap" style="width: 1920px; height: 1080px;">
+                <div class="thumbnail" style="border: 30px solid #F01A32; border-radius: 50px; overflow: hidden;">
+                    <div class="thumbnail-txt">
+                        <dl>
+                            <dt>왕초보 작은 이야기</dt>
+                            <dd>Slow English</dd>
+                        </dl>
+                    </div>
 
-                <div class="thumbnail-txt2">
-                    <dl>
-                        <dt>
-                            The Tiny Door
-                        </dt>
-                        <dd>
-                            「 작은 문... 」
-                        </dd>
-                    </dl>
-                </div>
+                    <div class="thumbnail-txt2">
+                        <dl>
+                            <dt>
+                                The Dog Alone
+                                <span>#1</span>
+                            </dt>
+                            <dd>
+                                「 혼자 있는 강아지 」
+                            </dd>
+                        </dl>
+                    </div>
 
-                <img class="thumbnail-img" src="data/story/2026/09/09-16/3.png" alt="">
+                    <img class="thumbnail-img" src="" alt="">
+                </div>
             </div>
 
             <div class="intro" style="z-index: 7000;">
                 <div class="intro-sound-text">
                     <div class="intro-sound-text-1">
-                        <span class="intro-sound-text-span-1">영어는 어순</span>을 이해하면 <br />
-                        쉽게 읽을 수 있습니다.
+                        잠시 쉬어가며<br />
+                        <span class="intro-sound-text-span-1">영어 이야기 한 편</span><br />
+                        들어보세요.
                     </div>
                     <div class="intro-sound-text-2">
-                        <span class="intro-sound-text-span-1">작은 영어 이야기</span>와 함께 <br />
-                        천천히 익혀볼게요.
+                        천천히 듣다 보면 <br />
+                        <span class="intro-sound-text-span-1">영어가 조금씩 가까워집니다.</span>
                     </div>
                     <div class="intro-sound-text-3">
-                        시작합니다!
+                        <span class="intro-sound-text-span-1">오늘의 이야기를</span><br />
+                        함께 시작해 볼까요?
+                    </div>
+
+                    <div class="intro-ai-info">
+                        본 영상은 영어 학습을 위한 창작 이야기이며, <br />
+                        등장인물과 사건은 실제와 관련이 없습니다.<br />
+                        ※ 본 영상의 이미지는 AI를 활용하여 제작되었습니다.<br />
                     </div>
                 </div>
 
-                <img class="intro-img" src="data/story/2026/09/09-16/3.png" alt="">
+                <img class="intro-img" src="" alt="">
             </div>
 
             <div class="full-eng" style="z-index: 8000;">
                 <div class="full-eng-inner">
 
                     <div class="full-eng-step-bx">
-                        <dl>
-                            <dt>STEP 1.</dt>
-                            <dd>
-                                전체 문장 듣기
-                            </dd>
-                        </dl>
+                        <div class="step-bx-info">
+                            <ul>
+                                <li class="on">
+                                    <b>STEP 1. </b>전체 이야기 듣기
+                                    <span>
+                                        <b>STEP 1. </b>전체 이야기 듣기
+                                    </span>
+                                </li>
+                                <li>
+                                    <b>STEP 2. </b>한 문장씩 이해하기
+                                    <span>
+                                        <b>STEP 2. </b>한 문장씩 이해하기
+                                    </span>
+                                </li>
+                                <li>
+                                    <b>STEP 3. </b>전체 이야기 복습하기
+                                    <span>
+                                        <b>STEP 3. </b>전체 이야기 복습하기
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="full-eng-bx">
                         <div class="full-eng-list">
@@ -133,16 +159,11 @@
                     </div>
 
                     <div class="full-img-list">
-                        <img src="data/story/2026/09/09-16/1.png" alt="">
-                        <img src="data/story/2026/09/09-16/2.png" alt="">
-                        <img src="data/story/2026/09/09-16/3.png" alt="">
-                        <img src="data/story/2026/09/09-16/5.png" alt="">
-                        <img src="data/story/2026/09/09-16/6.png" alt="">
-                        <img src="data/story/2026/09/09-16/7.png" alt="">
-                        <img src="data/story/2026/09/09-16/8.png" alt="">
-                        <img src="data/story/2026/09/09-16/9.png" alt="">
-                        <img src="data/story/2026/09/09-16/10.png" alt="">
-                        <img src="data/story/2026/09/09-16/12.png" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
                     </div>
                 </div>
             </div>
@@ -153,16 +174,11 @@
 
                 <div class="bg-bx">
                     <div class="bg-list">
-                        <img src="data/story/2026/09/09-16/1.png" alt="">
-                        <img src="data/story/2026/09/09-16/2.png" alt="">
-                        <img src="data/story/2026/09/09-16/3.png" alt="">
-                        <img src="data/story/2026/09/09-16/5.png" alt="">
-                        <img src="data/story/2026/09/09-16/6.png" alt="">
-                        <img src="data/story/2026/09/09-16/7.png" alt="">
-                        <img src="data/story/2026/09/09-16/8.png" alt="">
-                        <img src="data/story/2026/09/09-16/9.png" alt="">
-                        <img src="data/story/2026/09/09-16/10.png" alt="">
-                        <img src="data/story/2026/09/09-16/12.png" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
                     </div>
 
                     <span class="episode">
@@ -175,19 +191,32 @@
                 </div>
 
                 <div class="study-room-step-bx">
-                    <dl>
-                        <dt>STEP 2.</dt>
-                        <dd>
-                            영어 어순 이해하기
-                        </dd>
-                    </dl>
+                    <div class="step-bx-info">
+                        <ul>
+                            <li class="finish">
+                                <b>STEP 1. </b>전체 이야기 듣기
+                                <span>
+                                    <b>STEP 1. </b>전체 이야기 듣기
+                                </span>
+                            </li>
+                            <li class="on">
+                                <b>STEP 2. </b>한 문장씩 이해하기
+                                <span>
+                                    <b>STEP 2. </b>한 문장씩 이해하기
+                                </span>
+                            </li>
+                            <li>
+                                <b>STEP 3. </b>전체 이야기 복습하기
+                                <span>
+                                    <b>STEP 3. </b>전체 이야기 복습하기
+                                </span>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
 
                 <div class="content">
-                    <div class="count-bx">
-                        ( <span class="count-value">1</span> / <span class="count-max">10</span> )
-
-                    </div>
                     <div class="study-bx">
                         <div class="study">
                             <ul class="study-list-bx">
@@ -233,14 +262,72 @@
                     </div>
                 </div>
             </div>
+
+            <div class="finish-eng" style="z-index: 9100;">
+                <div class="finish-eng-inner">
+
+                    <div class="finish-eng-step-bx">
+                        <div class="step-bx-info">
+                            <ul>
+                                <li class="finish">
+                                    <b>STEP 1. </b>전체 이야기 듣기
+                                    <span>
+                                        <b>STEP 1. </b>전체 이야기 듣기
+                                    </span>
+                                </li>
+                                <li class="finish">
+                                    <b>STEP 2. </b>한 문장씩 이해하기
+                                    <span>
+                                        <b>STEP 2. </b>한 문장씩 이해하기
+                                    </span>
+                                </li>
+                                <li class="on">
+                                    <b>STEP 3. </b>전체 이야기 복습하기
+                                    <span>
+                                        <b>STEP 3. </b>전체 이야기 복습하기
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="finish-eng-bx">
+                        <div class="finish-eng-list">
+                            <ul>
+                                <!-- <li>
+                                    <div class="list en-list" style="opacity: 1">
+                                        <div class="list-txt en-txt""><span>Tom finishes his breakfast and</span></div>
+                                        <div class="list-txt en-txt""><span>checks</span></div>
+                                        <div class="list-txt en-txt""><span>his shopping list.</span></div>
+                                    </div>
+                                    <div class="list ko-list" style="opacity: 1;">
+                                        <div class="list-txt ko-txt"><span style="transform: translateY(0);">톰은 아침 식사를 마치고</span></div>
+                                        <div class="list-txt ko-txt"><span style="transform: translateY(0);">장보기 목록을</span></div>
+                                        <div class="list-txt ko-txt"><span style="transform: translateY(0);">확인해요.</span> </div>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="finish-img-list">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <script src="data/story/2026/09/09-16/data.js"></script>
+    <script src="data/story/2026/09/09-21/data.js"></script>
     <script src="js/App.audio.js"></script>
     <script src="js/story/App.story.js"></script>
     <script src="js/story/App.intro.js"></script>
     <script src="js/story/App.full-eng.js"></script>
+    <script src="js/story/App.finish.js"></script>
     <script src="js/story/App.control.js"></script>
 </body>
 

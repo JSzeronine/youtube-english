@@ -20,26 +20,23 @@
         let c = 0;
         function show() {
             App.audio.playTTS({
-                text: `영어는 어순을 이해하면 쉽게 읽을 수 있습니다.`,
-                code: 3,
-                rate: 1,
-                delay: 0.25,
+                text: `잠시 쉬어가며 영어 이야기 한 편 들어보세요.`,
+                code: 28,
+                rate: 0.95,
                 callback: () => {
                     App.audio.playTTS({
-                        text: `작은 영어 이야기와 함께 천천히 익혀볼게요.`,
-                        code: 3,
-                        rate: 1,
-                        delay: 0.2,
+                        text: `천천히 듣다 보면 영어가 조금씩 가까워집니다.`,
+                        code: 28,
+                        rate: 0.95,
                         playCallback: () => {
                             $( ".intro-sound-text-1" ).css( "display", "none" );
                             $( ".intro-sound-text-2" ).css( "display", "block" );
                         },
                         callback: () => {
                             App.audio.playTTS({
-                                text: `시작합니다.`,
-                                code: 3,
-                                rate: 1,
-                                delay: 0.2,
+                                text: `그럼, 오늘의 이야기를 함께 시작해 볼까요?`,
+                                code: 28,
+                                rate: 0.95,
                                 playCallback: () => {
                                     $( ".intro-sound-text-2" ).css( "display", "none" );
                                     $( ".intro-sound-text-3" ).css( "display", "block" );

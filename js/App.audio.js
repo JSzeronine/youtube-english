@@ -47,6 +47,11 @@
             'ko-KR-Chirp3-HD-Puck',     // 26
             'ko-KR-Wavenet-C',          // 27
 
+            'ko-KR-Chirp3-HD-Aoede', // 28
+            // 'ko-KR-Chirp3-HD-Despina',
+            // 'ko-KR-Chirp3-HD-Erinome',
+            // 'ko-KR-Chirp3-HD-Laomedeia',
+
         ];
 
         const languageCode = [
@@ -85,6 +90,8 @@
             "ko-KR", // 25
             "ko-KR", // 26
             "ko-KR", // 27
+
+            "ko-KR", // 28
         ]
 
         function Init() {

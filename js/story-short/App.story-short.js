@@ -4,7 +4,7 @@
 
 
 
-    let m = 1;
+    let m = 3;
     let c = 0;
 
 
@@ -38,6 +38,13 @@
             return str;
         }
 
+        function showSound(){
+            const audio = document.getElementById('introMusic');
+            audio.currentTime = 58;
+            audio.volume = 0.3;
+            audio.play();
+        }
+
         function Init() {
             create();
 
@@ -52,6 +59,8 @@
             // $( ".timer" ).css( "opacity", 0 );
             // all();
             // return;
+
+            showSound();
 
             let countValue = 3;
             const timer = setInterval(() => {
@@ -92,9 +101,9 @@
             });
 
             const { y, height } = item[0].getBoundingClientRect();
-            const pY = (296 - y) + (985 / 2) - (height / 1.25) - 120;
+            const pY = (296 - y) + (985 / 2) - (height / 1.25) - 75;
             // gsap.set( bx, { y: pY, duration: 0 });
-            gsap.fromTo(bx, { y: pY + 75, opacity: 0, }, {
+            gsap.fromTo(bx, { y: pY + 15, opacity: 0, }, {
                 y: pY, opacity: 1, duration: 0.75, ease: Cubic.easeInOut, onComplete: () => {
                     let allKo = '';
                     enStorys[m].ko.forEach((storyItem) => {
@@ -114,7 +123,7 @@
                         code: 3,
                         rate: 1,
                         playCallback: () => {
-                            gsap.fromTo($(".all-ko-txt"), { opacity: 0, }, { duration: 0.35, opacity: 1, ease: Cubic.easeOut });
+                            // gsap.fromTo($(".all-ko-txt"), { opacity: 0, }, { duration: 0.35, opacity: 1, ease: Cubic.easeOut });
                         },
                         callback: () => {
                             setTimeout(() => {
@@ -143,7 +152,7 @@
                 rate: 0.675,
                 delay: 0,
                 playCallback: () => {
-                    gsap.to(koTag, { duration: 0.5, y: -5, color: color[c], opacity: 1, ease: Cubic.easeOut });
+                    gsap.to(koTag, { duration: 0.5, y: 0, color: color[c], opacity: 1, ease: Cubic.easeOut });
                     gsap.to(enTag, { duration: 0.5, y: 0, color: color[c], opacity: 1, ease: Cubic.easeOut });
                 },
 
